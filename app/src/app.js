@@ -928,7 +928,7 @@
   // ---------- match (with spare right-hand items) ----------
   function drawMatch(q) {
     let selL = null, selR = null, done = 0, bad = false;
-    const grcRight = q.right.every((r) => E.isPolytonic(r));
+    const grcRight = q.rightGrc || q.right.every((r) => E.isPolytonic(r));
     const inner = `${header(q)}<p class="prompt" style="font-size:18px">${esc(q.prompt)}</p><div class="match">
       <div class="mcol">${q.left.map((l) => `<button class="mbtn left grc" data-l="${esc(l)}" lang="grc">${esc(l)}</button>`).join("")}</div>
       <div class="mcol">${q.right.map((r) => `<button class="mbtn ${grcRight ? "grc" : ""}" data-r="${esc(r)}">${esc(r)}</button>`).join("")}</div></div>`;
@@ -961,7 +961,13 @@
     const ids = q.itemIds || (q.itemId ? [q.itemId] : []);
     for (const id of ids) E.grade(S, id, ok || score >= 0.5, t);
     run.results.push({ q, score });
-    if (run.mode === "stadion") { showFeedback(ok, ok ? pick(RIGHT) : why || "Έπεσες στο στάδιο!", q); return; }
+    if (run.mode === "stadion") {
+      // freeze the timer bar where it is (the CSS transition would keep draining it) and show the new count
+      const bar = $("#timer");
+      if (bar && bar.parentElement) { const full = bar.parentElement.getBoundingClientRect().width; const left = full ? (bar.getBoundingClientRect().width / full).toFixed(3) : 0; bar.style.transition = "none"; bar.style.transform = `scaleX(${left})`; }
+      const cnt = $(".lesson-top .tnum"); if (cnt) { cnt.textContent = run.right; if (cnt.nextSibling) cnt.nextSibling.textContent = run.right === 1 ? " στάδιο" : " στάδια"; }
+      showFeedback(ok, ok ? pick(RIGHT) : why || "Έπεσες στο στάδιο!", q); return;
+    }
     if (!ok && !run.requeued.has(run.i) && run.mode !== "daily" && run.mode !== "mock") {
       run.requeued.add(run.steps.length);
       run.steps.push({ ...q, label: E.L.again, marks: undefined });
@@ -993,7 +999,8 @@
       <button class="btn block ${ok || neutral ? "olive" : half ? "gold" : "clay"}" id="next">${lastLap ? "Δες το σκορ" : "Συνέχεια"}</button></div>`;
     const next = $("#next");
     next.addEventListener("click", () => (run.mode === "stadion" ? (ok ? nextStadion() : finishStadion()) : advance()));
-    next.focus();
+    // focus a beat later: pressing Enter in the answer box must not also «press» the new button (the keypress follows the keydown)
+    setTimeout(() => { if (next.isConnected) next.focus(); }, 200);
   }
 
   function finishRun() {

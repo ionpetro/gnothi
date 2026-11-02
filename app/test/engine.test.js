@@ -267,7 +267,12 @@ test("Β3 match has 5 pairs and 2 spare modern words when the pool allows", () =
 test("the Γ3 table match pairs forms with their identification", () => {
   const q = E.qMatchTable(IX, IX.byKind.form, E.rng(5));
   assert.ok(q);
-  assert.ok(q.pairs.some((p) => p[1] === "γ΄ πληθυντικό οριστικής παρατατικού ενεργητικής φωνής"));
+  assert.ok(q.pairs.length >= 3 && q.pairs.length <= 4);
+  assert.equal(new Set(q.pairs.map((p) => p[1])).size, q.pairs.length, "each identification is used once");
+  // the example unit's περιοικοῦσιν form is identified in full
+  const ex = IX.byKind.form.filter((f) => f.id === "u0-f-perioikoun" || f.id === "u0-f-agagomen" || f.id === "u0-f-phaie");
+  const q0 = E.qMatchTable(IX, ex, E.rng(5));
+  assert.ok(q0.pairs.some((p) => p[1] === "γ΄ πληθυντικό οριστικής παρατατικού ενεργητικής φωνής"));
 });
 
 test("principal parts fill six slots, skipping the ones a verb lacks", () => {

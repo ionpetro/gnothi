@@ -8,6 +8,8 @@ const { Engine: E } = require("../src/engine.js");
 
 const units = loadUnits({ example: true });
 const IX = E.indexCourse(units);
+// 8 seeds cover the shuffles and distractor picks (100+ lessons; 40 seeds took 40 s). GNOTHI_SEEDS=40 for a deep run.
+const SEEDS = Number(process.env.GNOTHI_SEEDS) || 8;
 
 test("the example unit is present and every unit file exports its unit", () => {
   assert.ok(units.some((u) => u.id === "u0_example"), "u0_example.js must export the example unit");
@@ -97,7 +99,7 @@ function checkQ(q, where) {
 
 test("every lesson sitting and roundup builds valid questions across many seeds", () => {
   const s = E.freshState();
-  for (let seed = 1; seed <= 40; seed++) {
+  for (let seed = 1; seed <= SEEDS; seed++) {
     for (const l of IX.lessons) {
       const sittings = E.lessonSittings(IX, l.id);
       assert.ok(sittings.length >= 1, `${l.id}: no sittings`);

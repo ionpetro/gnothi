@@ -754,7 +754,7 @@ const Engine = (() => {
     }
     if (uniq.length < 3) return null;
     const pairs = uniq.map((it) => [labelOf(it), meaningOf(it), it.id]);
-    return { type: "match", itemId: null, itemIds: uniq.map((x) => x.id), label: L.match, prompt: "Πάτα μια λέξη και μετά τη σημασία της", pairs, left: shuffle(pairs.map((p) => p[0]), r), right: shuffle(pairs.map((p) => p[1]), r), spare: [] };
+    return { type: "match", itemId: null, itemIds: uniq.map((x) => x.id), label: L.match, prompt: uniq.every((x) => x.kind === "form") ? (uniq.every((x) => x.ask === uniq[0].ask) && uniq[0].ask.length <= 90 ? `Πάτα μια λέξη και μετά τον τύπο της: ${uniq[0].ask}` : "Πάτα μια λέξη και μετά τον τύπο που ζητά η άσκηση") : uniq.every((x) => x.kind === "role") ? "Πάτα μια λέξη και μετά τον συντακτικό της ρόλο" : "Πάτα μια λέξη και μετά τη σημασία της", rightGrc: uniq.every((x) => x.kind === "form"), pairs, left: shuffle(pairs.map((p) => p[0]), r), right: shuffle(pairs.map((p) => p[1]), r), spare: [] };
   }
 
   // sense (Β3 shape D): the same word with its modern meaning
