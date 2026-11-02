@@ -92,3 +92,7 @@ research/                    η έρευνα πίσω από το περιεχό
 - **Το Στάδιο** βάζει και ερωτήσεις Γ4 με μακριές επιλογές· σε 20 δευτερόλεπτα είναι δύσκολες. Ίσως να μείνει στις λέξεις, τους τύπους και την Εισαγωγή.
 - **Analytics:** το PostHog φορτώνει μόνο με `POSTHOG_KEY` στο `app/.env`· δεν έχει ρυθμιστεί ακόμη project.
 - **Deploy:** δεν έχει ανέβει στο Vercel.
+
+## Live site
+
+https://gnothi-greek.vercel.app (Vercel project `gnothi-greek`; deploy: `npm run build && cd app/vercel && vercel deploy --prod`)
