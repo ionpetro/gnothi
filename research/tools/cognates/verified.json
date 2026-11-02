@@ -1,0 +1,9123 @@
+{
+ "0|θαυμάζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαυμ"
+ },
+ "0|θαυμάσιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαυμ"
+ },
+ "0|θαυμαστός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαυμ"
+ },
+ "0|θαύμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαυμ"
+ },
+ "0|θαυματουργός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαυμ"
+ },
+ "0|θαυματοποιός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαυμ"
+ },
+ "0|θαυμασμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαυμ"
+ },
+ "1|φίλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φιλ"
+ },
+ "1|φιλία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φιλ"
+ },
+ "1|φιλικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φιλ"
+ },
+ "1|φιλάνθρωπος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φιλ"
+ },
+ "1|φιλόξενος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φιλ"
+ },
+ "1|φιλότιμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φιλ"
+ },
+ "1|φιλελεύθερος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φιλ"
+ },
+ "1|φιλόλογος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φιλ"
+ },
+ "2|σοφός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σοφ"
+ },
+ "2|σοφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σοφ"
+ },
+ "2|σοφιστής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σοφ"
+ },
+ "2|σοφιστεία": {
+  "status": "transparent",
+  "needle": "σοφ"
+ },
+ "2|σοφίζομαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σοφ"
+ },
+ "2|φιλόσοφος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σοφ"
+ },
+ "3|φιλοσοφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φιλοσ"
+ },
+ "3|φιλόσοφος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φιλοσ"
+ },
+ "3|φιλοσοφικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φιλοσ"
+ },
+ "3|φιλοσοφώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φιλοσ"
+ },
+ "4|αρχή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρχ"
+ },
+ "4|αρχηγός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρχ"
+ },
+ "4|αρχαίος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρχ"
+ },
+ "4|αρχαϊκός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρχ"
+ },
+ "4|αρχείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρχ"
+ },
+ "4|αρχιτέκτονας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρχ"
+ },
+ "4|αρχέτυπο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρχ"
+ },
+ "4|μοναρχία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρχ"
+ },
+ "4|αναρχία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρχ"
+ },
+ "4|άρχοντας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρχ"
+ },
+ "5|χέρι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειρ"
+ },
+ "5|πρόχειρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειρ"
+ },
+ "5|χειρόγραφο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειρ"
+ },
+ "5|χειρουργός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειρ"
+ },
+ "5|χειροτονία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειρ"
+ },
+ "5|χειραγωγώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειρ"
+ },
+ "5|χειροποίητος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειρ"
+ },
+ "5|χειρονομία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειρ"
+ },
+ "5|εγχειρίδιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειρ"
+ },
+ "5|υποχείριος": {
+  "status": "exam"
+ },
+ "5|επιχείρηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειρ"
+ },
+ "6|τόπος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τοπ"
+ },
+ "6|τοπικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τοπ"
+ },
+ "6|τοπίο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τοπ"
+ },
+ "6|τοπογραφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τοπ"
+ },
+ "6|τοπωνύμιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τοπ"
+ },
+ "6|ουτοπία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τοπ"
+ },
+ "6|άτοπος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τοπ"
+ },
+ "7|σεληνιακός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σελην"
+ },
+ "7|σεληνιασμός": {
+  "status": "transparent",
+  "needle": "σελην"
+ },
+ "7|σεληνόφως": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σελην"
+ },
+ "8|ήλιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηλιοσ"
+ },
+ "8|ηλιακός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηλιοσ"
+ },
+ "8|ηλιόλουστος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηλιοσ"
+ },
+ "8|ηλιοθεραπεία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηλιοσ"
+ },
+ "8|ηλιοστάσιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηλιοσ"
+ },
+ "8|ηλιοφάνεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηλι"
+ },
+ "9|αστέρι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αστρο"
+ },
+ "9|αστρονομία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αστρο"
+ },
+ "9|αστρονόμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αστρο"
+ },
+ "9|αστρολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αστρο"
+ },
+ "9|αστροναύτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αστρο"
+ },
+ "9|αστερισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αστε"
+ },
+ "9|αστρικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αστρο"
+ },
+ "9|αστερίσκος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αστε"
+ },
+ "10|γένεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γεν"
+ },
+ "10|γένος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γεν"
+ },
+ "10|γενιά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γεν"
+ },
+ "10|γεννώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γεν"
+ },
+ "10|γεννητικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γεν"
+ },
+ "10|γενετική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γιγνο"
+ },
+ "10|γενεαλογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γεν"
+ },
+ "10|γονέας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γον"
+ },
+ "10|γόνιμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γιγνο"
+ },
+ "10|γίνομαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γιγνο"
+ },
+ "10|γνήσιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γνησι"
+ },
+ "11|μέγας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεγ"
+ },
+ "11|μέγεθος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεγ"
+ },
+ "11|μεγάλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεγ"
+ },
+ "11|μεγαλείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεγ"
+ },
+ "11|μεγαλοπρεπής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεγ"
+ },
+ "11|μεγιστάνας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεγ"
+ },
+ "11|μεγέθυνση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεγ"
+ },
+ "11|μεγαλομανία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεγ"
+ },
+ "12|απορία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πορ"
+ },
+ "12|άπορος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πορ"
+ },
+ "12|απορώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πορ"
+ },
+ "12|εύπορος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πορ"
+ },
+ "12|ευπορία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πορ"
+ },
+ "12|πορεία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πορ"
+ },
+ "12|πόρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πορ"
+ },
+ "12|πορίζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πορ"
+ },
+ "12|πόρισμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πορ"
+ },
+ "12|πορισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πορ"
+ },
+ "13|άγνοια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γνο"
+ },
+ "13|αγνοώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γνω"
+ },
+ "13|άγνωστος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γνω"
+ },
+ "13|γνώση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γνω"
+ },
+ "13|γνώμη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γνω"
+ },
+ "13|γνωστός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γνω"
+ },
+ "13|διάγνωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γνω"
+ },
+ "13|πρόγνωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γνω"
+ },
+ "13|επίγνωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γνω"
+ },
+ "13|αναγνώριση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γνω"
+ },
+ "14|μύθος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μυθοσ"
+ },
+ "14|μυθικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μυθοσ"
+ },
+ "14|μυθολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μυθοσ"
+ },
+ "14|μυθιστόρημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μυθοσ"
+ },
+ "14|μυθοπλασία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μυθοσ"
+ },
+ "15|κείμενο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κειμ"
+ },
+ "15|υποκείμενο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κειμ"
+ },
+ "15|αντικείμενο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κειμ"
+ },
+ "15|συγκείμενο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κειμ"
+ },
+ "15|κοιμάμαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοιμ"
+ },
+ "15|κειμήλιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κειμ"
+ },
+ "16|φυγή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυγ"
+ },
+ "16|φυγάς": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυγ"
+ },
+ "16|πρόσφυγας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φευγω"
+ },
+ "16|καταφύγιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φευγω"
+ },
+ "16|φυγόπονος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυγ"
+ },
+ "16|φυγόκεντρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυγ"
+ },
+ "16|διαφυγή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φευγω"
+ },
+ "17|ιστορία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιστορ"
+ },
+ "17|ιστορικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιστορ"
+ },
+ "17|ιδέα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιδε"
+ },
+ "17|ειδώλιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ειδ"
+ },
+ "17|είδωλο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ειδ"
+ },
+ "17|είδος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ειδ"
+ },
+ "17|ιδανικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ειδ"
+ },
+ "18|επιστήμη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "επιστ"
+ },
+ "18|επιστήμονας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "επιστ"
+ },
+ "18|επιστημονικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "επιστ"
+ },
+ "18|πανεπιστήμιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "επιστ"
+ },
+ "18|επιστήμων": {
+  "status": "transparent",
+  "needle": "επιστ"
+ },
+ "18|επιστατώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "επιστ"
+ },
+ "19|ζητώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ζητεω"
+ },
+ "19|ζήτηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ζητεω"
+ },
+ "19|ζήτημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ζητ"
+ },
+ "19|ζητούμενο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ζητεω"
+ },
+ "19|αναζήτηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ζητεω"
+ },
+ "19|εκζήτηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ζητ"
+ },
+ "20|χρήση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρησ"
+ },
+ "20|χρήσιμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρησ"
+ },
+ "20|χρήστης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρησ"
+ },
+ "20|χρηστικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χραομ"
+ },
+ "20|άχρηστος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρησ"
+ },
+ "20|εύχρηστος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρησ"
+ },
+ "20|κατάχρηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρησ"
+ },
+ "20|χρεία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρει"
+ },
+ "20|χρησμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρησ"
+ },
+ "20|χρήμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρημ"
+ },
+ "20|χρηματικός": {
+  "status": "exam"
+ },
+ "21|ελευθερία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελευθ"
+ },
+ "21|ελεύθερος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελευθ"
+ },
+ "21|ελευθερώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελευθ"
+ },
+ "21|απελευθέρωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελευθ"
+ },
+ "21|ελευθεροτυπία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελευθ"
+ },
+ "21|ελευθερωτής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελευθ"
+ },
+ "22|μάρτυρας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μαρτυ"
+ },
+ "22|μαρτυρία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μαρτυρ"
+ },
+ "22|μαρτύριο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μαρτυρ"
+ },
+ "22|μαρτυρώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μαρτυρ"
+ },
+ "22|μαρτυρικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μαρτυρ"
+ },
+ "23|βάση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βασ"
+ },
+ "23|βήμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαινω"
+ },
+ "23|βάδην": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαδ"
+ },
+ "23|ανάβαση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βασ"
+ },
+ "23|κατάβαση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βασ"
+ },
+ "23|διάβαση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βασ"
+ },
+ "23|αναβάτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαινω"
+ },
+ "23|συμβάν": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βασ"
+ },
+ "23|σύμβαση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βασ"
+ },
+ "24|ικανός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ικνε"
+ },
+ "24|ικανότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ικαν"
+ },
+ "24|ικανοποιώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ικνε"
+ },
+ "24|ικανοποίηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ικνε"
+ },
+ "24|ανίκανος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ικνε"
+ },
+ "24|άφιξη": {
+  "status": "exam"
+ },
+ "24|αφικνούμαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ικνε"
+ },
+ "25|πρώτος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρωτ"
+ },
+ "25|πρωτεύουσα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρωτ"
+ },
+ "25|πρωτοβουλία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρωτ"
+ },
+ "25|πρωταγωνιστής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρωτ"
+ },
+ "25|πρωτότυπος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρωτ"
+ },
+ "25|πρωτεία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρωτ"
+ },
+ "25|πρώτα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρωτ"
+ },
+ "26|ανάγκη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αναγκ"
+ },
+ "26|αναγκαίος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αναγκ"
+ },
+ "26|αναγκάζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αναγκ"
+ },
+ "26|αναγκαστικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αναγκ"
+ },
+ "26|αναγκαιότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αναγκ"
+ },
+ "27|ραστώνη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ραστων"
+ },
+ "27|ράθυμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ραθυμ"
+ },
+ "27|ραθυμία": {
+  "status": "transparent",
+  "needle": "ραθυμ"
+ },
+ "27|ραδιούργος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ραδι"
+ },
+ "28|αγωγή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγω"
+ },
+ "28|αγωγός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγω"
+ },
+ "28|συναγωγή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγω"
+ },
+ "28|παιδαγωγός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγω"
+ },
+ "28|δημαγωγός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγω"
+ },
+ "28|αγών": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγω"
+ },
+ "28|διαγωγή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγω"
+ },
+ "28|άξονας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αξων"
+ },
+ "28|αγέλη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγω"
+ },
+ "28|περιαγωγή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγω"
+ },
+ "29|φαινόμενο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φαιν"
+ },
+ "29|φανερός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φαν"
+ },
+ "29|φανάρι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φαν"
+ },
+ "29|φάντασμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φαν"
+ },
+ "29|φαντασία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φαν"
+ },
+ "29|φάσμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φασμ"
+ },
+ "29|φασματικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φασμ"
+ },
+ "29|διάφανος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φαν"
+ },
+ "29|επιφάνεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φαν"
+ },
+ "30|φως": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φωσ"
+ },
+ "30|φωτιά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φωσ"
+ },
+ "30|φωτεινός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φωσ"
+ },
+ "30|φωτογραφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φωσ"
+ },
+ "30|φωστήρας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φωσ"
+ },
+ "30|φωτισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φωτ"
+ },
+ "31|φήμη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φημη"
+ },
+ "31|προφήτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φημι"
+ },
+ "31|καταφατικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φασκ"
+ },
+ "31|αποφατικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φατικ"
+ },
+ "31|αφασία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φασι"
+ },
+ "31|ευφημισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φημι"
+ },
+ "32|σώμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σωμα"
+ },
+ "32|σωματικός": {
+  "status": "transparent",
+  "needle": "σωμα"
+ },
+ "32|σωματείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σωμα"
+ },
+ "32|σωματίδιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σωμα"
+ },
+ "32|σωματοφύλακας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σωμα"
+ },
+ "32|ψυχοσωματικός": {
+  "status": "transparent",
+  "needle": "σωμα"
+ },
+ "32|ασώματος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σωμα"
+ },
+ "33|όργανο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οργαν"
+ },
+ "33|οργανισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οργαν"
+ },
+ "33|οργανώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οργαν"
+ },
+ "33|οργανωτής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οργαν"
+ },
+ "33|οργανικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οργαν"
+ },
+ "33|οργανοπαίκτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οργαν"
+ },
+ "34|κίνδυνος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κινδυ"
+ },
+ "34|επικίνδυνος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κινδυ"
+ },
+ "34|κινδυνεύω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κινδυ"
+ },
+ "34|ακίνδυνος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κινδυ"
+ },
+ "35|πλεονέκτημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πλεον"
+ },
+ "35|πλεονεκτώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πλεον"
+ },
+ "35|πλεονασμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πλεον"
+ },
+ "35|πλειονότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πλει"
+ },
+ "35|πλειοψηφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πλει"
+ },
+ "35|πλεόνασμα": {
+  "status": "transparent",
+  "needle": "πλεον"
+ },
+ "36|πλήθος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πληθο"
+ },
+ "36|πληθυσμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πληθ"
+ },
+ "36|πληθωρισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πληθ"
+ },
+ "36|πληθυντικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πληθ"
+ },
+ "36|πληθώρα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πληθ"
+ },
+ "37|δέον": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεω"
+ },
+ "37|δεοντολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεο"
+ },
+ "37|δέηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεω"
+ },
+ "37|ένδεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ενδε"
+ },
+ "37|ενδεής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ενδε"
+ },
+ "37|δεόντως": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεω"
+ },
+ "38|όρεξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορεξ"
+ },
+ "38|ορεκτικό": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορεγ"
+ },
+ "38|ανόρεξη": {
+  "status": "transparent",
+  "needle": "ορεξ"
+ },
+ "38|ορέγομαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορεγ"
+ },
+ "39|κτήμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κτη"
+ },
+ "39|κτήση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κτη"
+ },
+ "39|απόκτημα": {
+  "status": "exam"
+ },
+ "39|κτητικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κτα"
+ },
+ "39|κτηνοτροφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κτη"
+ },
+ "39|κτήτορας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κτη"
+ },
+ "39|κτηματίας": {
+  "status": "transparent",
+  "needle": "κτη"
+ },
+ "40|θέση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιθημ"
+ },
+ "40|θέτω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιθημ"
+ },
+ "40|θεσμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιθημ"
+ },
+ "40|θέμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιθημ"
+ },
+ "40|θήκη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιθημ"
+ },
+ "40|αποθήκη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θηκη"
+ },
+ "40|βιβλιοθήκη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιθημ"
+ },
+ "40|διαθήκη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θηκη"
+ },
+ "40|υπόθεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιθημ"
+ },
+ "40|σύνθεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θεσι"
+ },
+ "40|ανάθεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιθημ"
+ },
+ "40|νομοθέτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιθημ"
+ },
+ "40|διάθεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιθημ"
+ },
+ "40|αδιαθεσία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θετ"
+ },
+ "40|επίθετο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιθημ"
+ },
+ "41|πόλη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολισ"
+ },
+ "41|πολίτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολι"
+ },
+ "41|πολιτεία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολι"
+ },
+ "41|πολιτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολισ"
+ },
+ "41|πολιτισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολι"
+ },
+ "41|πολιτεύομαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολι"
+ },
+ "41|ακρόπολη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολισ"
+ },
+ "41|μητρόπολη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολισ"
+ },
+ "41|πολιτειακός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολι"
+ },
+ "41|συμπολίτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολισ"
+ },
+ "42|βίος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βιο"
+ },
+ "42|βιολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βιο"
+ },
+ "42|βιογραφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βιο"
+ },
+ "42|βιώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βιο"
+ },
+ "42|βιοτεχνία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βιο"
+ },
+ "42|βιοπάλη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βιο"
+ },
+ "42|διαβίωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βιο"
+ },
+ "43|ωφέλεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ωφελε"
+ },
+ "43|ωφέλιμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ωφελ"
+ },
+ "43|ωφελώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ωφελε"
+ },
+ "43|ωφελιμιστικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ωφελ"
+ },
+ "44|έκαστος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εκαστ"
+ },
+ "44|εκάστοτε": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εκαστ"
+ },
+ "44|εκατέρωθεν": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εκατερ"
+ },
+ "45|υπηρέτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ερετ"
+ },
+ "45|υπηρεσία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υπηρε"
+ },
+ "45|υπηρετώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ερετ"
+ },
+ "45|ερέτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ερετ"
+ },
+ "46|τάξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταττ"
+ },
+ "46|τακτική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τασσω"
+ },
+ "46|τακτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τασσω"
+ },
+ "46|διάταξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταξ"
+ },
+ "46|διάταγμα": {
+  "status": "transparent",
+  "needle": "ταγ"
+ },
+ "46|επιτακτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τασσω"
+ },
+ "46|σύνταξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταξ"
+ },
+ "46|ταξιαρχία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταξ"
+ },
+ "46|τάγμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταγ"
+ },
+ "46|προσταγή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταττ"
+ },
+ "47|κύριος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κυριο"
+ },
+ "47|κυρίως": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κυριο"
+ },
+ "47|κυριότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κυριο"
+ },
+ "47|κυριαρχία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κυριο"
+ },
+ "47|κυρίαρχος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κυριο"
+ },
+ "47|κυριολεξία": {
+  "status": "transparent",
+  "needle": "κυριο"
+ },
+ "48|αγαθό": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγαθο"
+ },
+ "48|αγαθότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγαθο"
+ },
+ "48|αγαθοεργία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγαθο"
+ },
+ "48|αγαθοποιός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγαθο"
+ },
+ "49|κρίση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κρισ"
+ },
+ "49|κριτής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κρινω"
+ },
+ "49|κριτική": {
+  "status": "transparent",
+  "needle": "κριτ"
+ },
+ "49|κριτήριο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κριτ"
+ },
+ "49|διάκριση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κρινω"
+ },
+ "49|ανάκριση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κρινω"
+ },
+ "49|απόκριση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κρισ"
+ },
+ "49|εγκρίνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κρινω"
+ },
+ "50|όλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ολο"
+ },
+ "50|ολικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ολο"
+ },
+ "50|ολόκληρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ολο"
+ },
+ "50|ολοκληρώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ολο"
+ },
+ "50|καθολικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ολο"
+ },
+ "50|ολότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ολο"
+ },
+ "51|αμαρτάνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμαρτ"
+ },
+ "51|αμάρτημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμαρτ"
+ },
+ "51|αμαρτία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμαρτ"
+ },
+ "51|αναμάρτητος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμαρτ"
+ },
+ "51|αμαρτωλός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμαρτ"
+ },
+ "52|σχέση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σχεσ"
+ },
+ "52|σχήμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σχημ"
+ },
+ "52|σχολείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σχολ"
+ },
+ "52|σχολή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σχολ"
+ },
+ "52|σχολαστικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σχεσ"
+ },
+ "52|συνοχή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "συνεχ"
+ },
+ "52|περιοχή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "περιεχ"
+ },
+ "52|ανοχή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανεχ"
+ },
+ "52|αντοχή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αντεχ"
+ },
+ "52|κατοχή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εχω"
+ },
+ "52|ευεξία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εχω"
+ },
+ "52|καχεξία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εχω"
+ },
+ "52|ένοχος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ενοχ"
+ },
+ "53|πράξη": {
+  "status": "exam"
+ },
+ "53|πράκτορας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρακ"
+ },
+ "53|πρακτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρατ"
+ },
+ "53|πρακτορείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρακ"
+ },
+ "53|πρατήριο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρατ"
+ },
+ "53|πραγματικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πραγ"
+ },
+ "53|πράγμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πραγ"
+ },
+ "53|διαπραγμάτευση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πραγ"
+ },
+ "53|πράττω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρατ"
+ },
+ "54|λόγος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λεγ"
+ },
+ "54|λογικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λογ"
+ },
+ "54|λογική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λογ"
+ },
+ "54|διάλογος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λογ"
+ },
+ "54|παράλογος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λογ"
+ },
+ "54|έλεγχος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λεγ"
+ },
+ "54|λέξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λεγ"
+ },
+ "54|λεξικό": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λεγ"
+ },
+ "54|ανάλογος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λογ"
+ },
+ "54|αναλογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λογ"
+ },
+ "54|λογαριασμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λογ"
+ },
+ "55|νέος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νεο"
+ },
+ "55|νεότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νεο"
+ },
+ "55|νεαρός": {
+  "status": "transparent",
+  "needle": "νεα"
+ },
+ "55|νεολαία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νεο"
+ },
+ "55|νεογνό": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νεο"
+ },
+ "55|νεωτερισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νεω"
+ },
+ "56|ώρα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ωρα"
+ },
+ "56|ωραίος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ωρα"
+ },
+ "56|ωριμότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ωρα"
+ },
+ "56|ώριμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ωρα"
+ },
+ "56|άωρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ωρα"
+ },
+ "56|πρόωρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ωρα"
+ },
+ "56|ωρολόγιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ωρα"
+ },
+ "57|ευδαιμονία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δαιμ"
+ },
+ "57|ευδαίμων": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δαιμ"
+ },
+ "57|δαιμόνιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δαιμ"
+ },
+ "57|δαίμονας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δαιμ"
+ },
+ "57|κακοδαιμονία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δαιμ"
+ },
+ "57|δαιμονισμένος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δαιμ"
+ },
+ "58|γέρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γερο"
+ },
+ "58|γέροντας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γερο"
+ },
+ "58|γηρατειά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γηρ"
+ },
+ "58|γηριατρική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γηρ"
+ },
+ "58|γεροντικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γερο"
+ },
+ "58|γεροντοκόρη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γερο"
+ },
+ "59|παλιός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παλαι"
+ },
+ "59|παλαιός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παλαι"
+ },
+ "59|παλαιολιθικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παλαι"
+ },
+ "59|παλαίωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παλαι"
+ },
+ "60|ψυχή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ψυχ"
+ },
+ "60|ψυχικός": {
+  "status": "transparent",
+  "needle": "ψυχ"
+ },
+ "60|ψυχολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ψυχ"
+ },
+ "61|μελέτη": {
+  "status": "transparent",
+  "needle": "μελ"
+ },
+ "61|μελετώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελ"
+ },
+ "61|επιμέλεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελ"
+ },
+ "61|αμέλεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελ"
+ },
+ "61|μέλημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελ"
+ },
+ "62|δώρο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διδωμ"
+ },
+ "62|δωρεά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διδωμ"
+ },
+ "62|δωρεάν": {
+  "status": "transparent",
+  "needle": "δωρ"
+ },
+ "62|δόση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διδωμ"
+ },
+ "62|δοτική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διδωμ"
+ },
+ "62|διάδοση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διδωμ"
+ },
+ "62|παράδοση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δοσι"
+ },
+ "62|απόδοση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διδωμ"
+ },
+ "62|δωρίζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δωρ"
+ },
+ "62|δωρητής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δωρ"
+ },
+ "63|μοίρα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μοιρ"
+ },
+ "63|μοιραίος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μοιρ"
+ },
+ "63|μέρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μερ"
+ },
+ "63|μερίδιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μερ"
+ },
+ "63|μερικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μερ"
+ },
+ "63|μερισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μερ"
+ },
+ "63|καταμερισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μερ"
+ },
+ "63|μοιράζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μοιρ"
+ },
+ "64|νομή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομ"
+ },
+ "64|νομάδας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομαδ"
+ },
+ "64|απονομή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομ"
+ },
+ "64|διανομή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομ"
+ },
+ "64|κατανομή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομ"
+ },
+ "64|νέμεσις": {
+  "status": "transparent",
+  "needle": "νεμ"
+ },
+ "64|νομός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομ"
+ },
+ "65|νόμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομοσ"
+ },
+ "65|νομίζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομ"
+ },
+ "65|νόμισμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομοσ"
+ },
+ "65|νομοθέτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομοσ"
+ },
+ "65|νομικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομοσ"
+ },
+ "65|παράνομος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομοσ"
+ },
+ "65|οικονομία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομ"
+ },
+ "65|αστυνομία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομ"
+ },
+ "65|νομοταγής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομ"
+ },
+ "65|νομάρχης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νομοσ"
+ },
+ "66|κλέφτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κλεπτ"
+ },
+ "66|κλοπή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κλεπτ"
+ },
+ "66|κλεπτομανία": {
+  "status": "verified",
+  "hops": 1,
+  "needle": "κλεπτ",
+  "via": "κλέφτης"
+ },
+ "66|κλεψύδρα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κλεψ"
+ },
+ "66|κλεπτοκρατία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κλεπτ"
+ },
+ "67|σωτηρία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σωτηρ"
+ },
+ "67|σωτήρας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σωτηρ"
+ },
+ "67|σώζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σωζ"
+ },
+ "67|άσωτος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σωζ"
+ },
+ "67|σωτήριος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σωτηρ"
+ },
+ "67|σώος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σωοσ"
+ },
+ "68|έργο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εργον"
+ },
+ "68|εργασία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εργ"
+ },
+ "68|εργάτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εργ"
+ },
+ "68|ενέργεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εργ"
+ },
+ "68|εργόχειρο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εργον"
+ },
+ "68|εργάζομαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εργον"
+ },
+ "68|ενεργός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εργον"
+ },
+ "68|εργοστάσιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εργον"
+ },
+ "68|εργολάβος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εργ"
+ },
+ "68|δημιουργός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δημιουργ"
+ },
+ "69|πρέπον": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρεπ"
+ },
+ "69|πρέπει": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρεπ"
+ },
+ "69|ευπρέπεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρεπ"
+ },
+ "69|απρεπής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρεπ"
+ },
+ "69|ευπρεπής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πρεπ"
+ },
+ "69|πρέπουσα": {
+  "status": "transparent",
+  "needle": "πρεπ"
+ },
+ "70|κόσμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοσμ"
+ },
+ "70|κόσμημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοσμ"
+ },
+ "70|κοσμώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοσμ"
+ },
+ "70|κοσμικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοσμ"
+ },
+ "70|κοσμογονία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοσμ"
+ },
+ "70|κοσμοπολίτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοσμ"
+ },
+ "70|κοσμητικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοσμ"
+ },
+ "70|κοσμοθεωρία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοσμ"
+ },
+ "71|δύναμη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δυναμ"
+ },
+ "71|δυναμική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δυναμ"
+ },
+ "71|δυναμικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δυναμ"
+ },
+ "71|δυνατός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δυνα"
+ },
+ "71|δυνατότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δυνα"
+ },
+ "71|δυναστεία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δυνα"
+ },
+ "71|αδύναμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δυναμ"
+ },
+ "71|δυνάστης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δυνα"
+ },
+ "71|αδυναμία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δυναμ"
+ },
+ "72|ισχύς": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ισχυσ"
+ },
+ "72|ισχυρός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ισχυ"
+ },
+ "72|ισχύω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ισχυ"
+ },
+ "72|ισχυροποιώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ισχυ"
+ },
+ "73|ταχύτητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταχ"
+ },
+ "73|ταχύς": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταχ"
+ },
+ "73|ταχυδρόμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταχ"
+ },
+ "73|ταχυδρομείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταχ"
+ },
+ "73|ταχυδακτυλουργός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταχ"
+ },
+ "74|ασθένεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ασθεν"
+ },
+ "74|ασθενής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ασθεν"
+ },
+ "74|ασθενικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ασθεν"
+ },
+ "74|ασθενοφόρο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ασθεν"
+ },
+ "74|σθένος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σθεν"
+ },
+ "75|όπλο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οπλ"
+ },
+ "75|οπλισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οπλ"
+ },
+ "75|οπλίζω": {
+  "status": "transparent",
+  "needle": "οπλ"
+ },
+ "75|άοπλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οπλ"
+ },
+ "75|οπλίτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οπλ"
+ },
+ "75|οπλοστάσιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οπλ"
+ },
+ "75|οπλή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οπλ"
+ },
+ "76|αμφίεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμφι"
+ },
+ "76|μεταμφίεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμφι"
+ },
+ "76|μεταμφιεσμένος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμφι"
+ },
+ "76|αμπέχονο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμφι"
+ },
+ "77|πυρκαγιά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πυρ"
+ },
+ "77|πυρομαχικά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πυρ"
+ },
+ "77|πυροσβέστης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πυρ"
+ },
+ "77|πυρετός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πυρ"
+ },
+ "77|πυρασφάλεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πυρ"
+ },
+ "77|πυρομανής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πυρ"
+ },
+ "77|πυρά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πυρ"
+ },
+ "77|πυρακτώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πυρ"
+ },
+ "78|γη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γαια"
+ },
+ "78|γεωγραφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γεωγ"
+ },
+ "78|γεωλογία": {
+  "status": "exam"
+ },
+ "78|γεωργός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γεωρ"
+ },
+ "78|γεωμετρία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γεωμ"
+ },
+ "78|ισόγειο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ισογει"
+ },
+ "78|υπόγειο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υπογει"
+ },
+ "78|γήινος": {
+  "status": "verified",
+  "hops": 1,
+  "needle": "γαια",
+  "via": "γη"
+ },
+ "78|γεώτρηση": {
+  "status": "verified",
+  "hops": 1,
+  "needle": "γεωρ",
+  "via": "γεω-"
+ },
+ "79|κέρασμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κεραν"
+ },
+ "79|κράση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κρα"
+ },
+ "79|κράμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κεραν"
+ },
+ "79|κρατήρας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κρα"
+ },
+ "79|ανάκραση": {
+  "status": "transparent",
+  "needle": "κρα"
+ },
+ "79|ιδιοσυγκρασία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κρα"
+ },
+ "79|δυσκρασία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κεραν"
+ },
+ "79|εύκρατος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κεραν"
+ },
+ "80|αφή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "απτ"
+ },
+ "80|απτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "απτ"
+ },
+ "80|απτός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "απτ"
+ },
+ "80|εφαπτομένη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "απτ"
+ },
+ "80|ανάβω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "απτ"
+ },
+ "80|συνάφεια": {
+  "status": "etym-mismatch"
+ },
+ "80|επαφή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αφη"
+ },
+ "81|φθορά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φθορ"
+ },
+ "81|φθείρω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φθειρ"
+ },
+ "81|διαφθορά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φθορ"
+ },
+ "81|διεφθαρμένος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φθειρ"
+ },
+ "81|φθαρτός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φθειρ"
+ },
+ "81|άφθαρτος": {
+  "status": "etym-mismatch"
+ },
+ "82|αλληλεγγύη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλ"
+ },
+ "82|αλληλεπίδραση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλ"
+ },
+ "82|αλληλοσεβασμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλ"
+ },
+ "82|αλλαγή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλ"
+ },
+ "82|αλλάζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλοσ"
+ },
+ "82|αλλοδαπός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλοσ"
+ },
+ "82|αλλοτριώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλ"
+ },
+ "82|αλλοιώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλ"
+ },
+ "83|αρκώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρκ"
+ },
+ "83|επαρκής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "επαρκ"
+ },
+ "83|επάρκεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "επαρκ"
+ },
+ "83|αρκετός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρκ"
+ },
+ "83|αυτάρκεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρκ"
+ },
+ "83|αρκούντως": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρκ"
+ },
+ "84|μέλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελοσ"
+ },
+ "84|μελωδία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελ"
+ },
+ "84|μελωδικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελ"
+ },
+ "84|μελοποίηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελ"
+ },
+ "84|εμμελής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελοσ"
+ },
+ "85|μηχανή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μηχαν"
+ },
+ "85|μηχανικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μηχαν"
+ },
+ "85|μηχανισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μηχαν"
+ },
+ "85|μηχανορραφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μηχαν"
+ },
+ "85|μηχανεύομαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μηχαν"
+ },
+ "85|αμήχανος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μηχαν"
+ },
+ "86|προμήθεια": {
+  "status": "exam"
+ },
+ "86|προμηθευτής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "προμηθ"
+ },
+ "86|προμηθεύομαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "προμηθ"
+ },
+ "86|Προμηθέας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "προμηθ"
+ },
+ "87|λήθη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ληθ"
+ },
+ "87|λησμονιά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λησμον"
+ },
+ "87|λάθος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λανθα"
+ },
+ "87|λαθραίος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λανθα"
+ },
+ "87|αλήθεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ληθ"
+ },
+ "87|αληθινός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ληθ"
+ },
+ "87|αληθής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ληθ"
+ },
+ "87|λησμονώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λησμον"
+ },
+ "88|ανάλωμα": {
+  "status": "transparent",
+  "needle": "αναλω"
+ },
+ "88|κατανάλωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αναλω"
+ },
+ "88|καταναλωτής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αναλω"
+ },
+ "88|αναλώσιμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αναλω"
+ },
+ "89|δέντρο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δενδρ"
+ },
+ "89|δενδροφύτευση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δενδρ"
+ },
+ "89|δενδρολίβανο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δενδρ"
+ },
+ "89|δενδροστοιχία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δενδρ"
+ },
+ "90|βότανο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βοταν"
+ },
+ "90|βοσκός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βοσκ"
+ },
+ "90|βόσκω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βοσκ"
+ },
+ "90|βοσκότοπος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βοσκ"
+ },
+ "90|βοτανική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βοταν"
+ },
+ "90|βορά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βορ"
+ },
+ "91|ρίζα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ριζ"
+ },
+ "91|ριζώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ριζ"
+ },
+ "91|ριζικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ριζ"
+ },
+ "91|ριζοσπάστης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ριζ"
+ },
+ "91|εκρίζωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ριζ"
+ },
+ "92|τροφή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τρεφ"
+ },
+ "92|τρέφω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τρεφ"
+ },
+ "92|θρέμμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θρεμ"
+ },
+ "92|εκτροφή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τροφ"
+ },
+ "92|τροφός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τροφ"
+ },
+ "92|τροφοδοσία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τροφ"
+ },
+ "92|ατροφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τροφ"
+ },
+ "93|ολίγος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ολιγ"
+ },
+ "93|ολιγαρχία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ολιγ"
+ },
+ "93|ολιγάριθμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ολιγ"
+ },
+ "93|ολιγοστός": {
+  "status": "transparent",
+  "needle": "ολιγ"
+ },
+ "93|ολιγόλογος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ολιγ"
+ },
+ "94|πολύς": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολυ"
+ },
+ "94|πολυάριθμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολυ"
+ },
+ "94|πολυτεχνείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολυ"
+ },
+ "94|πολυκατοικία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολυ"
+ },
+ "94|πολύποδας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολλ"
+ },
+ "94|πολυγονία": {
+  "status": "transparent",
+  "needle": "πολυ"
+ },
+ "94|πολυπλοκότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολυ"
+ },
+ "95|δέρμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δερμα"
+ },
+ "95|δερματολόγος": {
+  "status": "transparent",
+  "needle": "δερμα"
+ },
+ "95|δερματικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δερμα"
+ },
+ "95|δέρνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δερ"
+ },
+ "95|επιδερμίδα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δερμα"
+ },
+ "95|υποδόριος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δερμα"
+ },
+ "96|τρίχα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τριχ"
+ },
+ "96|τρίχωμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τριχ"
+ },
+ "96|τριχωτός": {
+  "status": "transparent",
+  "needle": "τριχ"
+ },
+ "96|τριχοφυΐα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τριχ"
+ },
+ "96|τριχοειδής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τριχ"
+ },
+ "97|στρώμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στρω"
+ },
+ "97|στρώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στρω"
+ },
+ "97|οδόστρωμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στρω"
+ },
+ "97|στρωτός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στρω"
+ },
+ "97|στρωματσάδα": {
+  "status": "transparent",
+  "needle": "στρω"
+ },
+ "98|υπόδημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεμα"
+ },
+ "98|υπόδηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υποδε"
+ },
+ "98|ανυπόδητος": {
+  "status": "etym-mismatch"
+ },
+ "98|δέμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεμα"
+ },
+ "98|δεσμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεσμ"
+ },
+ "98|δεσμώτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεσμ"
+ },
+ "98|σύνδεσμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεσμ"
+ },
+ "99|οικία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οικ"
+ },
+ "99|οίκημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οικ"
+ },
+ "99|οικονομία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οικ"
+ },
+ "99|οικοδεσπότης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οικ"
+ },
+ "99|οικογένεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οικ"
+ },
+ "99|οικείος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οικ"
+ },
+ "99|οικισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οικ"
+ },
+ "99|οικιστής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οικ"
+ },
+ "99|νοικοκύρης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οικ"
+ },
+ "100|άκρο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακρ"
+ },
+ "100|ακραίος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακρ"
+ },
+ "100|ακρόπολη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακρ"
+ },
+ "100|ακρωτήρι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακρ"
+ },
+ "100|ακρότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακρ"
+ },
+ "100|ακροβατώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακρ"
+ },
+ "101|φύση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυσι"
+ },
+ "101|φυσικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυσι"
+ },
+ "101|φυτό": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυτ"
+ },
+ "101|φυσιολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυσι"
+ },
+ "101|φύομαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυομ"
+ },
+ "101|αυτοφυής": {
+  "status": "exam"
+ },
+ "101|φυσιογνωμία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυσι"
+ },
+ "101|φύτρο": {
+  "status": "transparent",
+  "needle": "φυτ"
+ },
+ "101|ευφυΐα": {
+  "status": "exam"
+ },
+ "101|φυτεία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυτ"
+ },
+ "102|τέχνη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τεχν"
+ },
+ "102|τεχνίτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τεχν"
+ },
+ "102|τεχνικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τεχν"
+ },
+ "102|τεχνητός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τεχν"
+ },
+ "102|τεχνολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τεχν"
+ },
+ "102|αρχιτέκτονας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τεκτ"
+ },
+ "102|τεκτονικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τεκτ"
+ },
+ "102|τόκος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τοκ"
+ },
+ "102|επιτόκιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τοκ"
+ },
+ "102|τοκετός": {
+  "status": "exam"
+ },
+ "103|φυλακή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυλ"
+ },
+ "103|φύλακας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυλ"
+ },
+ "103|φυλάσσω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυλ"
+ },
+ "103|φυλάκιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυλ"
+ },
+ "103|προφυλάσσω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυλ"
+ },
+ "103|διαφυλάσσω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φυλ"
+ },
+ "104|άδεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αδεια"
+ },
+ "104|δέος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεοσ"
+ },
+ "104|δειλός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δειλ"
+ },
+ "104|δειλία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεοσ"
+ },
+ "104|δεινός": {
+  "status": "transparent",
+  "needle": "δεινοσ"
+ },
+ "104|δεινόσαυρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεινοσ"
+ },
+ "105|φόβος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φοβ"
+ },
+ "105|φοβερός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φοβ"
+ },
+ "105|φοβία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φοβ"
+ },
+ "105|φοβάμαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φοβ"
+ },
+ "106|απώλεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ολλυμ"
+ },
+ "106|όλεθρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ολεθρ"
+ },
+ "106|ολέθριος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ολεθρ"
+ },
+ "106|πανωλεθρία": {
+  "status": "exam"
+ },
+ "107|ορμή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορμ"
+ },
+ "107|ορμώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορμ"
+ },
+ "107|ορμόνη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορμ"
+ },
+ "107|ορμητικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορμ"
+ },
+ "107|αφορμή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορμ"
+ },
+ "107|εφόρμηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορμ"
+ },
+ "108|νόσος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νοσ"
+ },
+ "108|νοσηρός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νοσ"
+ },
+ "108|νοσοκομείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νοσ"
+ },
+ "108|νόσημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νοσ"
+ },
+ "108|νοσηλεία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νοσ"
+ },
+ "109|ίδρυμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιδρυ"
+ },
+ "109|ίδρυση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιδρυω"
+ },
+ "109|ιδρυτής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιδρυω"
+ },
+ "109|ιδρύω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιδρυω"
+ },
+ "110|όνομα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ονομ"
+ },
+ "110|ονομασία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ονομ"
+ },
+ "110|ονοματεπώνυμο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ονομ"
+ },
+ "110|ανώνυμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ωνυμ"
+ },
+ "110|παρωνύμιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ονομ"
+ },
+ "110|συνώνυμο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ωνυμ"
+ },
+ "110|ομώνυμο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ωνυμ"
+ },
+ "110|επώνυμο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ονομ"
+ },
+ "111|φωνή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φων"
+ },
+ "111|φωνήεν": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φων"
+ },
+ "111|φωνητικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φων"
+ },
+ "111|φωνάζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φων"
+ },
+ "111|συμφωνία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φων"
+ },
+ "111|σύμφωνο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φων"
+ },
+ "111|ομοφωνία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φων"
+ },
+ "111|αφωνία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φων"
+ },
+ "111|τηλέφωνο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φων"
+ },
+ "112|άρθρο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρθρο"
+ },
+ "112|άρθρωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρθρ"
+ },
+ "112|αρθρώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρθρο"
+ },
+ "112|αρθρίτιδα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρθρο"
+ },
+ "112|έναρθρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρθρο"
+ },
+ "112|άναρθρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρθρο"
+ },
+ "113|ευρετήριο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ευρ"
+ },
+ "113|εύρημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ευρ"
+ },
+ "113|ευρηματικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ευρ"
+ },
+ "113|ευρεσιτεχνία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ευρ"
+ },
+ "113|εύρεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ευρ"
+ },
+ "113|ευρίσκω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ευρ"
+ },
+ "114|σπορά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σπορ"
+ },
+ "114|σπόρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σπορ"
+ },
+ "114|σποραδικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σπορ"
+ },
+ "114|διασπορά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σπορ"
+ },
+ "114|σπείρω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σπειρ"
+ },
+ "114|σπαρτά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σπαρ"
+ },
+ "114|διασκέδαση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκεδ"
+ },
+ "114|σκεδάζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκεδ"
+ },
+ "115|θηρίο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θηριο"
+ },
+ "115|θηριώδης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θηριο"
+ },
+ "115|θηρευτής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θηρ"
+ },
+ "115|θήραμα": {
+  "status": "transparent",
+  "needle": "θηρ"
+ },
+ "115|θήρευση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θηρ"
+ },
+ "116|πάντα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πασ"
+ },
+ "116|παντού": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παν"
+ },
+ "116|πανταχού": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παν"
+ },
+ "116|πάντοτε": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παν"
+ },
+ "116|πανεπιστήμιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παν"
+ },
+ "116|πανοπλία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παν"
+ },
+ "116|πάνδημος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παν"
+ },
+ "116|παντογνώστης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παν"
+ },
+ "116|πανάκεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παν"
+ },
+ "117|δήμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δημοσ"
+ },
+ "117|δημότης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δημ"
+ },
+ "117|δημοκρατία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δημ"
+ },
+ "117|δημόσιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δημοσ"
+ },
+ "117|δημαγωγός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δημοσ"
+ },
+ "117|δημογραφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δημοσ"
+ },
+ "117|δήμαρχος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δημοσ"
+ },
+ "118|πόλεμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολεμ"
+ },
+ "118|πολεμικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολεμ"
+ },
+ "118|πολεμώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολεμ"
+ },
+ "118|πολεμιστής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολεμ"
+ },
+ "118|αντιπολεμικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πολεμ"
+ },
+ "119|άθροισμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αθροι"
+ },
+ "119|αθροιστικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αθροι"
+ },
+ "119|άθροιση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αθροι"
+ },
+ "119|συναθροίζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αθροι"
+ },
+ "119|αθρόος": {
+  "status": "verified",
+  "hops": 1,
+  "needle": "αθροι",
+  "via": "ἀθρόος"
+ },
+ "120|κτίζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κτιζω"
+ },
+ "120|κτίσμα": {
+  "status": "transparent",
+  "needle": "κτισ"
+ },
+ "120|κτίστης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κτισ"
+ },
+ "120|κτίριο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κτιζω"
+ },
+ "120|κτίση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κτιζω"
+ },
+ "121|δίκη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δικ"
+ },
+ "121|δίκαιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δικαι"
+ },
+ "121|δικαιοσύνη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δικαι"
+ },
+ "121|δικαστής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δικ"
+ },
+ "121|δικηγόρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δικ"
+ },
+ "121|δικαστήριο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δικ"
+ },
+ "121|δικαιώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δικαι"
+ },
+ "121|άδικος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δικ"
+ },
+ "121|δίκαιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δικαι"
+ },
+ "121|δικανικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δικ"
+ },
+ "122|δείκτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεικ"
+ },
+ "122|δείγμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δειγ"
+ },
+ "122|παράδειγμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δειγ"
+ },
+ "122|υπόδειξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δειξ"
+ },
+ "122|ένδειξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δειξ"
+ },
+ "122|επίδειξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δειξ"
+ },
+ "122|απόδειξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δειξ"
+ },
+ "122|αποδεικτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεικ"
+ },
+ "123|ερώτηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ερωτ"
+ },
+ "123|ερωτώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ερωτα"
+ },
+ "123|ερώτημα": {
+  "status": "transparent",
+  "needle": "ερωτ"
+ },
+ "123|ερωτηματικό": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ερωτ"
+ },
+ "123|ερωτηματολόγιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ερωτ"
+ },
+ "124|πομπή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πεμπω"
+ },
+ "124|πομπός": {
+  "status": "transparent",
+  "needle": "πομπ"
+ },
+ "124|προπομπός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πομπ"
+ },
+ "124|πομπώδης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πομπ"
+ },
+ "125|ιατρική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιατρι"
+ },
+ "125|ιατρός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιατρ"
+ },
+ "125|ιατρείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιατρ"
+ },
+ "125|ψυχίατρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιατρ"
+ },
+ "125|παιδίατρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιατρ"
+ },
+ "126|ιδιώτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιδι"
+ },
+ "126|ίδιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιδι"
+ },
+ "126|ιδιωτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιδι"
+ },
+ "126|ιδιότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιδι"
+ },
+ "126|ιδιοκτησία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιδι"
+ },
+ "126|ιδιόρρυθμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιδι"
+ },
+ "126|ιδιοσυγκρασία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιδι"
+ },
+ "127|βουλή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βουλ"
+ },
+ "127|βούληση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βουλο"
+ },
+ "127|βουλευτής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βουλ"
+ },
+ "127|βούλημα": {
+  "status": "exam"
+ },
+ "127|πρωτοβουλία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βουλ"
+ },
+ "127|αβουλία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βουλ"
+ },
+ "128|συμβουλή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βουλ"
+ },
+ "128|σύμβουλος": {
+  "status": "transparent",
+  "needle": "βουλ"
+ },
+ "128|συμβουλεύω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βουλε"
+ },
+ "128|βουλεύομαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βουλε"
+ },
+ "128|βουλευτήριο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βουλε"
+ },
+ "129|ανοχή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανεκτ"
+ },
+ "129|ανεκτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανεκτ"
+ },
+ "129|ανεκτός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανεκτ"
+ },
+ "129|ανέχομαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανεχ"
+ },
+ "130|σωφροσύνη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φρον"
+ },
+ "130|σώφρων": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σωφρ"
+ },
+ "130|σωφρονισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φρον"
+ },
+ "130|φρόνηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φρον"
+ },
+ "130|φρόνιμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φρον"
+ },
+ "130|φρενάρω": {
+  "status": "exam"
+ },
+ "130|εχέφρων": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φρεν"
+ },
+ "130|φροντίδα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φρον"
+ },
+ "130|φρόνημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φρον"
+ },
+ "131|ανδρείος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανδρε"
+ },
+ "131|ανδρεία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανδρε"
+ },
+ "131|ανδρισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανδρε"
+ },
+ "131|ανδρικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανδρ"
+ },
+ "131|ανδραγάθημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανδρ"
+ },
+ "132|αρετή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρετ"
+ },
+ "132|ενάρετος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρετ"
+ },
+ "132|άριστος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αριστ"
+ },
+ "132|αριστείο": {
+  "status": "transparent",
+  "needle": "αριστ"
+ },
+ "132|αριστοκρατία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αριστ"
+ },
+ "132|αριστούργημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αριστ"
+ },
+ "132|αριστοκράτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αριστ"
+ },
+ "133|θεός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θεο"
+ },
+ "133|θεϊκός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θει"
+ },
+ "133|θείος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θει"
+ },
+ "133|θεολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θεο"
+ },
+ "133|θεότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θεο"
+ },
+ "133|θεοσεβής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θεο"
+ },
+ "133|αθεΐα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θει"
+ },
+ "133|θεοκρατία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θεο"
+ },
+ "134|συγγένεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "συγγε"
+ },
+ "134|συγγενής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "συγγε"
+ },
+ "134|συγγενικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "συγγε"
+ },
+ "134|συγγενεύω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "συγγε"
+ },
+ "135|τρόπος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τρεπω"
+ },
+ "135|τροπή": {
+  "status": "transparent",
+  "needle": "τροπ"
+ },
+ "135|τροπικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τρεπω"
+ },
+ "135|τρέπω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τρεπω"
+ },
+ "135|ανατροπή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τροπ"
+ },
+ "135|αποτροπή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τροπ"
+ },
+ "135|εκτροπή": {
+  "status": "transparent",
+  "needle": "τροπ"
+ },
+ "135|επίτροπος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τροπ"
+ },
+ "135|επιτροπή": {
+  "status": "transparent",
+  "needle": "τροπ"
+ },
+ "136|μετοχή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μετοχ"
+ },
+ "136|μέθεξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μετεχ"
+ },
+ "136|μέτοχος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μετοχ"
+ },
+ "136|συμμετοχή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μετεχ"
+ },
+ "137|αιδώς": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιδ"
+ },
+ "137|αιδήμων": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιδ"
+ },
+ "137|αναίδεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιδ"
+ },
+ "137|αναιδής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιδ"
+ },
+ "138|τέλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τελ"
+ },
+ "138|τέλειος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τελ"
+ },
+ "138|τελειότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τελ"
+ },
+ "138|τελειώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τελ"
+ },
+ "138|τελικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τελ"
+ },
+ "138|τελείωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τελ"
+ },
+ "138|ατελής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τελ"
+ },
+ "138|τελειοποίηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τελ"
+ },
+ "139|χειρότερος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειρω"
+ },
+ "139|χείριστος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειρω"
+ },
+ "139|χειροτερεύω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειρ"
+ },
+ "140|όσιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οσι"
+ },
+ "140|οσιότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οσι"
+ },
+ "140|ανόσιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οσι"
+ },
+ "140|οσιομάρτυρας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οσι"
+ },
+ "141|άγριος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγριο"
+ },
+ "141|αγριότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγριο"
+ },
+ "141|αγριεύω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγριο"
+ },
+ "141|αγροίκος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγρ"
+ },
+ "141|αγρός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγρ"
+ },
+ "141|αγρότης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγρ"
+ },
+ "142|αφροδισιακός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αφροδ"
+ },
+ "142|αφροδίσια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αφροδ"
+ },
+ "142|Αφροδίτη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αφροδ"
+ },
+ "143|εδώδιμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εδωδ"
+ },
+ "143|εδωδή": {
+  "status": "transparent",
+  "needle": "εδωδ"
+ },
+ "143|εδώδιμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εδωδ"
+ },
+ "144|ηγεμόνας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηγουμ"
+ },
+ "144|ηγεμονία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηγεμ"
+ },
+ "144|ηγέτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηγουμ"
+ },
+ "144|ηγεσία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηγουμ"
+ },
+ "144|ηγούμενος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηγουμ"
+ },
+ "144|διήγηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηγουμ"
+ },
+ "144|εξήγηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηγησ"
+ },
+ "144|εισήγηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηγησ"
+ },
+ "144|αφήγηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηγουμ"
+ },
+ "145|εικόνα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εικ"
+ },
+ "145|εικονικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εικ"
+ },
+ "145|εικονίζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εικ"
+ },
+ "145|εικασία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εικ"
+ },
+ "145|εικαστικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εικ"
+ },
+ "145|εικότως": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εικ"
+ },
+ "146|ομοιότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ομοι"
+ },
+ "146|ομοιογενής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ομοι"
+ },
+ "146|ομοιομορφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ομοι"
+ },
+ "146|ανόμοιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ομοι"
+ },
+ "146|ομοίωμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ομοι"
+ },
+ "146|ομοιοπαθητική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ομοι"
+ },
+ "147|πάθος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παθ"
+ },
+ "147|παθητικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παθ"
+ },
+ "147|παθολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παθ"
+ },
+ "147|απαθής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παθ"
+ },
+ "147|συμπάθεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παθ"
+ },
+ "147|αντιπάθεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παθ"
+ },
+ "147|ψυχοπαθής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παθ"
+ },
+ "147|πάθημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παθ"
+ },
+ "148|παιδεία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παιδ"
+ },
+ "148|παιδί": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παιδ"
+ },
+ "148|παιδαγωγός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παιδ"
+ },
+ "148|παιδικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παιδ"
+ },
+ "148|παιδίατρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παιδ"
+ },
+ "148|παιδεύω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παιδ"
+ },
+ "148|εκπαίδευση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παιδ"
+ },
+ "148|απαίδευτος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παιδ"
+ },
+ "148|παιχνίδι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παιζ"
+ },
+ "149|σπήλαιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σπηλ"
+ },
+ "149|σπηλιά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σπηλ"
+ },
+ "149|σπηλαιολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σπηλ"
+ },
+ "149|σπηλαιώδης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σπηλ"
+ },
+ "150|δεσμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεσμ"
+ },
+ "150|δεσμώτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεσμ"
+ },
+ "150|δεσμά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεσμ"
+ },
+ "150|σύνδεσμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεσμ"
+ },
+ "150|δέμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεμ"
+ },
+ "150|δέσιμο": {
+  "status": "etym-mismatch"
+ },
+ "151|αυχένας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αυχην"
+ },
+ "151|αυχενικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αυχεν"
+ },
+ "152|κεφάλι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κεφαλ"
+ },
+ "152|κεφαλή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κεφαλ"
+ },
+ "152|κεφάλαιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κεφαλ"
+ },
+ "152|κεφαλαιούχος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κεφαλ"
+ },
+ "152|εγκέφαλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κεφαλ"
+ },
+ "152|δικέφαλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κεφαλ"
+ },
+ "153|οδός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οδοσ"
+ },
+ "153|είσοδος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οδοσ"
+ },
+ "153|έξοδος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οδοσ"
+ },
+ "153|διέξοδος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οδοσ"
+ },
+ "153|πάροδος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οδοσ"
+ },
+ "153|μέθοδος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οδοσ"
+ },
+ "153|περίοδος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οδοσ"
+ },
+ "153|σύνοδος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οδοσ"
+ },
+ "153|οδηγός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οδοσ"
+ },
+ "153|οδοιπόρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οδοι"
+ },
+ "154|τείχος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τειχ"
+ },
+ "154|τειχίο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τειχ"
+ },
+ "154|τειχομαχία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τειχ"
+ },
+ "154|τειχισμένος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τειχ"
+ },
+ "155|θαύμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαυμ"
+ },
+ "155|θαυματοποιός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαυμ"
+ },
+ "155|θαυματουργός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαυμ"
+ },
+ "155|θαυμάσιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαυμ"
+ },
+ "156|ποίηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ποι"
+ },
+ "156|ποιητής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ποι"
+ },
+ "156|ποιότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ποι"
+ },
+ "156|ηθοποιός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ποι"
+ },
+ "156|ποίημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ποι"
+ },
+ "156|ποιοτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ποι"
+ },
+ "156|ποιητικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ποι"
+ },
+ "156|θαυματοποιός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ποι"
+ },
+ "156|ποιώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ποι"
+ },
+ "157|ζώο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ζωον"
+ },
+ "157|ζωή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ζωη"
+ },
+ "157|ζωικός": {
+  "status": "etym-mismatch"
+ },
+ "157|ζωολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ζωον"
+ },
+ "157|ζωγραφική": {
+  "status": "etym-mismatch"
+ },
+ "157|ζωγράφος": {
+  "status": "etym-mismatch"
+ },
+ "157|ζωντανός": {
+  "status": "etym-mismatch"
+ },
+ "157|ζωδιακός": {
+  "status": "etym-mismatch"
+ },
+ "158|λίθος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λιθ"
+ },
+ "158|λιθογραφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λιθ"
+ },
+ "158|λιθοβολώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λιθ"
+ },
+ "158|λίθινος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λιθ"
+ },
+ "158|μονόλιθος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λιθ"
+ },
+ "159|ξύλο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ξυλ"
+ },
+ "159|ξυλουργός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ξυλ"
+ },
+ "159|ξυλογλυπτική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ξυλ"
+ },
+ "159|ξύλινος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ξυλ"
+ },
+ "160|σιγή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σιγ"
+ },
+ "160|σιγώ": {
+  "status": "transparent",
+  "needle": "σιγ"
+ },
+ "160|σιγαστήρας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σιγ"
+ },
+ "161|όραση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορα"
+ },
+ "161|ορατός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορα"
+ },
+ "161|ορατότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορα"
+ },
+ "161|οπτική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οπτ"
+ },
+ "161|οφθαλμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οφθ"
+ },
+ "161|οφθαλμίατρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οφθ"
+ },
+ "161|οπτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οπτ"
+ },
+ "161|όψη": {
+  "status": "etym-mismatch"
+ },
+ "161|πανόραμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορα"
+ },
+ "162|οίηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οιη"
+ },
+ "162|οιηματίας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οιη"
+ },
+ "162|οιησίσοφος": {
+  "status": "transparent",
+  "needle": "οιη"
+ },
+ "163|κίνηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κινεω"
+ },
+ "163|κινώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κινεω"
+ },
+ "163|κίνημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κινεω"
+ },
+ "163|κινητός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κινεω"
+ },
+ "163|ακίνητος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κιν"
+ },
+ "163|κινητήρας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κιν"
+ },
+ "163|κινηματογράφος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κιν"
+ },
+ "164|διάλογος": {
+  "status": "verified",
+  "hops": 1,
+  "needle": "λεγω",
+  "via": "λόγος"
+ },
+ "164|διάλεκτος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διαλεκτ"
+ },
+ "164|διαλεκτική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διαλεκτ"
+ },
+ "164|διαλέγομαι": {
+  "status": "transparent",
+  "needle": "διαλεγ"
+ },
+ "165|ον": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ειμι"
+ },
+ "165|όντως": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οντ"
+ },
+ "165|ουσία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ουσι"
+ },
+ "165|ουσιαστικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ουσι"
+ },
+ "165|παρουσία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ουσι"
+ },
+ "165|απουσία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ουσι"
+ },
+ "165|συνουσία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ουσι"
+ },
+ "165|οντολογία": {
+  "status": "transparent",
+  "needle": "οντ"
+ },
+ "165|ουσιώδης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ουσι"
+ },
+ "166|στροφή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στροφ"
+ },
+ "166|στρέφω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στρεφ"
+ },
+ "166|μεταστροφή": {
+  "status": "transparent",
+  "needle": "στροφ"
+ },
+ "166|καταστροφή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στροφ"
+ },
+ "166|αναστροφή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στροφ"
+ },
+ "166|αποστροφή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στροφ"
+ },
+ "166|διάστρεμμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στρεφ"
+ },
+ "167|μάθημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μαθ"
+ },
+ "167|μαθητής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μαθ"
+ },
+ "167|μάθηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μαθ"
+ },
+ "167|μαθηματικά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μαθ"
+ },
+ "167|φιλομαθής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μανθ"
+ },
+ "167|πολυμαθής": {
+  "status": "transparent",
+  "needle": "μαθ"
+ },
+ "167|συμμαθήτρια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μαθ"
+ },
+ "168|αγγελία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγγελ"
+ },
+ "168|επάγγελμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγγελ"
+ },
+ "168|επαγγελματίας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγγελ"
+ },
+ "168|άγγελος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγγελ"
+ },
+ "168|ευαγγέλιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγγελ"
+ },
+ "168|καταγγελία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγγελ"
+ },
+ "168|αναγγελία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αγγελ"
+ },
+ "169|τυφλός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τυφλο"
+ },
+ "169|τυφλώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τυφλ"
+ },
+ "169|τύφλωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τυφλο"
+ },
+ "169|τυφλοπόντικας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τυφλο"
+ },
+ "170|σημείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σημ"
+ },
+ "170|σημαντικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σημ"
+ },
+ "170|ασήμαντος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σημ"
+ },
+ "170|σήμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σημ"
+ },
+ "170|σημαία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σημ"
+ },
+ "170|σημασία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σημ"
+ },
+ "170|διάσημος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σημ"
+ },
+ "170|σημειώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σημ"
+ },
+ "171|σκοτάδι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκοτ"
+ },
+ "171|σκοτεινός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκοτ"
+ },
+ "171|σκότος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκοτ"
+ },
+ "171|σκοτώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκοτ"
+ },
+ "171|σκοτεινιά": {
+  "status": "transparent",
+  "needle": "σκοτ"
+ },
+ "172|άσκηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ασκ"
+ },
+ "172|ασκητής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ασκεω"
+ },
+ "172|ασκητικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ασκεω"
+ },
+ "172|ασκώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ασκεω"
+ },
+ "173|έθιμο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εθιμ"
+ },
+ "173|ήθος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εθοσ"
+ },
+ "173|ηθικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηθικ"
+ },
+ "173|εθισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εθοσ"
+ },
+ "173|εθιμοτυπία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εθιμ"
+ },
+ "173|συνήθεια": {
+  "status": "exam"
+ },
+ "173|ηθική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηθικ"
+ },
+ "173|ήθη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηθοσ"
+ },
+ "173|ηθοποιός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηθοσ"
+ },
+ "174|βλάβη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βλαπτ"
+ },
+ "174|βλαβερός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βλαβ"
+ },
+ "174|βλάπτω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βλαπτ"
+ },
+ "174|αβλαβής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βλαβ"
+ },
+ "175|στόχος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στοχ"
+ },
+ "175|στοχασμός": {
+  "status": "transparent",
+  "needle": "στοχ"
+ },
+ "175|στοχαστικός": {
+  "status": "transparent",
+  "needle": "στοχ"
+ },
+ "175|στοχεύω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στοχ"
+ },
+ "176|εκούσιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εκουσ"
+ },
+ "176|ακούσιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εκουσ"
+ },
+ "176|εθελοντής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εθελ"
+ },
+ "176|εθελοντικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εθελ"
+ },
+ "177|μακάριος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μακαρ"
+ },
+ "177|μακαριότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μακαρ"
+ },
+ "177|μακαρίζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μακαρ"
+ },
+ "177|μακαρίτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μακαρ"
+ },
+ "178|τιμή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιμ"
+ },
+ "178|τίμιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιμ"
+ },
+ "178|τιμώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιμ"
+ },
+ "178|τιμητικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιμ"
+ },
+ "178|τίμημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιμ"
+ },
+ "178|ατιμία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιμ"
+ },
+ "178|εκτιμώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τιμ"
+ },
+ "179|πόνος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πον"
+ },
+ "179|πονώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πον"
+ },
+ "179|πονηρός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πον"
+ },
+ "179|φιλόπονος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πον"
+ },
+ "179|επίπονος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πον"
+ },
+ "180|φαύλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φαυλ"
+ },
+ "180|φαυλότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φαυλ"
+ },
+ "180|φαυλοκρατία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φαυλ"
+ },
+ "181|σπουδή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σπουδ"
+ },
+ "181|σπουδαίος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σπουδ"
+ },
+ "181|σπουδάζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σπουδ"
+ },
+ "181|σπουδαστής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σπουδ"
+ },
+ "182|αρμονία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρμ"
+ },
+ "182|αρμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρμ"
+ },
+ "182|αρμόζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρμ"
+ },
+ "182|αρμοστής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρμ"
+ },
+ "182|αρμόδιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρμ"
+ },
+ "182|εναρμονίζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρμ"
+ },
+ "183|πειθώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πειθω"
+ },
+ "183|πείθω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πειθω"
+ },
+ "183|πειστικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πειστ"
+ },
+ "183|πεποίθηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πειθω"
+ },
+ "183|απείθεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πειθω"
+ },
+ "183|πειθαρχία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πειθω"
+ },
+ "183|πίστη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πειθω"
+ },
+ "183|πιστεύω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πιστ"
+ },
+ "184|εμπειρία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πειρα"
+ },
+ "184|εμπειρικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πειρ"
+ },
+ "184|έμπειρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πειρα"
+ },
+ "184|πείρα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πειρα"
+ },
+ "184|πειραματισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πειρα"
+ },
+ "184|απειρία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πειρ"
+ },
+ "184|πειρατής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πειρα"
+ },
+ "185|σκοπός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκοπ"
+ },
+ "185|σκοπεύω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκοπ"
+ },
+ "185|σκοπιά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκεπ"
+ },
+ "185|σκοπιμότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκοπ"
+ },
+ "185|επίσκεψη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκεψ"
+ },
+ "185|επίσκοπος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκοπ"
+ },
+ "185|τηλεσκόπιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκοπ"
+ },
+ "185|μικροσκόπιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκοπ"
+ },
+ "185|σκέψη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκεψ"
+ },
+ "185|σκέπτομαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκεπ"
+ },
+ "186|μέλημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελ"
+ },
+ "186|επιμέλεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελ"
+ },
+ "186|αμέλεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελ"
+ },
+ "186|επιμελητής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελ"
+ },
+ "186|μελέτη": {
+  "status": "transparent",
+  "needle": "μελ"
+ },
+ "186|αμελής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελ"
+ },
+ "186|επιμελής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελ"
+ },
+ "187|άφεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αφι"
+ },
+ "187|άνεση": {
+  "status": "exam"
+ },
+ "187|αφήνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αφι"
+ },
+ "187|αφετηρία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αφι"
+ },
+ "187|αφέτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αφι"
+ },
+ "187|ένεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ενι"
+ },
+ "188|μένω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεν"
+ },
+ "188|μονή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεν"
+ },
+ "188|μόνιμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μον"
+ },
+ "188|παραμονή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεν"
+ },
+ "188|διαμονή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεν"
+ },
+ "188|υπομονή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεν"
+ },
+ "188|επιμονή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεν"
+ },
+ "189|λήψη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ληψ"
+ },
+ "189|λήμμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λαμβα"
+ },
+ "189|υπόληψη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ληψ"
+ },
+ "189|πρόσληψη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ληψ"
+ },
+ "189|ανάληψη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ληψ"
+ },
+ "189|κατάληψη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ληψ"
+ },
+ "189|παραλαβή": {
+  "status": "transparent",
+  "needle": "λαβ"
+ },
+ "189|αντίληψη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ληψ"
+ },
+ "189|λαβή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λαμβα"
+ },
+ "190|αίρεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιρ"
+ },
+ "190|καθαίρεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιρ"
+ },
+ "190|διαίρεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιρ"
+ },
+ "190|αφαίρεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιρ"
+ },
+ "190|διαιρέτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιρ"
+ },
+ "190|αναίρεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιρ"
+ },
+ "190|αιρετός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιρ"
+ },
+ "190|αναιρώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιρ"
+ },
+ "191|φέρω": {
+  "status": "transparent",
+  "needle": "φερ"
+ },
+ "191|φορά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φερ"
+ },
+ "191|φόρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φερ"
+ },
+ "191|φόρεμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φορ"
+ },
+ "191|φορτίο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φορ"
+ },
+ "191|παράφορος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φερ"
+ },
+ "191|διαφορά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φερ"
+ },
+ "191|προσφορά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φερ"
+ },
+ "191|συμφορά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φερ"
+ },
+ "191|οισοφάγος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φερ"
+ },
+ "191|φερέφωνο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φερ"
+ },
+ "191|φέρσιμο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φερ"
+ },
+ "192|κομιστής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κομιζ"
+ },
+ "192|κόμιστρο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κομιζ"
+ },
+ "192|συγκομιδή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κομιζ"
+ },
+ "192|διακομιστής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κομιζ"
+ },
+ "192|κομίζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κομιζ"
+ },
+ "192|κομιδή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κομιδ"
+ },
+ "193|ταραχή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταρ"
+ },
+ "193|ταράζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταρ"
+ },
+ "193|ταραχοποιός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταρ"
+ },
+ "193|συνταρακτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ταρ"
+ },
+ "193|αταραξία": {
+  "status": "transparent",
+  "needle": "ταρ"
+ },
+ "194|αμφισβήτηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμφισ"
+ },
+ "194|αμφισβητώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμφισ"
+ },
+ "194|αμφίβολος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμφι"
+ },
+ "194|αμφιβολία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμφι"
+ },
+ "195|ομολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ομολογ"
+ },
+ "195|ομολογώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ομολογ"
+ },
+ "195|ομολογουμένως": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ομολογ"
+ },
+ "195|ομόλογο": {
+  "status": "transparent",
+  "needle": "ομολογ"
+ },
+ "196|τάση": {
+  "status": "exam"
+ },
+ "196|τείνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τεινω"
+ },
+ "196|ένταση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τεν"
+ },
+ "196|έκταση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τεν"
+ },
+ "196|επιτείνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τεινω"
+ },
+ "196|συντείνω": {
+  "status": "transparent",
+  "needle": "τεινω"
+ },
+ "196|υπερτείνω": {
+  "status": "transparent",
+  "needle": "τεινω"
+ },
+ "196|τόνος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τεν"
+ },
+ "197|διάνοια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διανοι"
+ },
+ "197|νους": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νουσ"
+ },
+ "197|νόηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νουσ"
+ },
+ "197|νοητικός": {
+  "status": "verified",
+  "hops": 1,
+  "needle": "νοεω",
+  "via": "νοητός"
+ },
+ "197|ανόητος": {
+  "status": "verified",
+  "hops": 1,
+  "needle": "νοεω",
+  "via": "νοητός"
+ },
+ "197|παράνοια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νουσ"
+ },
+ "197|έννοια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νουσ"
+ },
+ "197|εννοώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νοεω"
+ },
+ "197|ευνοϊκός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νουσ"
+ },
+ "198|πόδι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ποδ"
+ },
+ "198|ποδήλατο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ποδ"
+ },
+ "198|εμπόδιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ποδ"
+ },
+ "198|πεζός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πεζ"
+ },
+ "198|πεζοπορία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πεζ"
+ },
+ "198|πεζικό": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πεζ"
+ },
+ "198|τρίποδο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ποδ"
+ },
+ "198|πολύποδας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ποδ"
+ },
+ "198|ποδοσφαιρο": {
+  "status": "transparent",
+  "needle": "ποδ"
+ },
+ "199|διδασκαλία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διδασ"
+ },
+ "199|δάσκαλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διδασ"
+ },
+ "199|διδακτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διδασ"
+ },
+ "199|διδάσκω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διδασ"
+ },
+ "199|διδακτορικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διδακτ"
+ },
+ "199|διδαχή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διδασ"
+ },
+ "199|δίδαγμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διδασ"
+ },
+ "200|αμείνων": {
+  "status": "transparent",
+  "needle": "αμειν"
+ },
+ "200|αμεινότερος": {
+  "status": "transparent",
+  "needle": "αμειν"
+ },
+ "201|παλινόρθωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παλιν"
+ },
+ "201|παλίμψηστο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παλιν"
+ },
+ "201|παλινωδία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παλιν"
+ },
+ "201|παλίρροια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παλιν"
+ },
+ "201|παλινδρόμηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παλιν"
+ },
+ "202|ακοή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακουω"
+ },
+ "202|ακούω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακουω"
+ },
+ "202|ακουστικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακο"
+ },
+ "202|ακροατήριο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακρο"
+ },
+ "202|ακρόαση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακρο"
+ },
+ "202|ακουστική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακουω"
+ },
+ "203|κιθάρα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κιθαρ"
+ },
+ "203|κιθαρωδός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κιθαρ"
+ },
+ "203|κιθαριστής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κιθαρ"
+ },
+ "204|οικοδομή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δομ"
+ },
+ "204|οικοδόμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δομ"
+ },
+ "204|δομή": {
+  "status": "transparent",
+  "needle": "δομ"
+ },
+ "204|δόμηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δομ"
+ },
+ "204|ανοικοδόμηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δομ"
+ },
+ "204|δωμάτιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δωμ"
+ },
+ "205|αναλογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αναλογ"
+ },
+ "205|ανάλογος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αναλογ"
+ },
+ "205|αναλογικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αναλογ"
+ },
+ "205|αναλογισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αναλογ"
+ },
+ "206|λοιπός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λειπ"
+ },
+ "206|υπόλοιπο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λοιπ"
+ },
+ "206|έκλειψη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λειπ"
+ },
+ "206|έλλειψη": {
+  "status": "etym-mismatch"
+ },
+ "206|λείπω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λειπ"
+ },
+ "206|διάλειμμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λειπ"
+ },
+ "206|λιποθυμία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λιπ"
+ },
+ "206|λιπόσαρκος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λιπ"
+ },
+ "206|παράλειψη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λειπ"
+ },
+ "206|ελλειπτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λειπ"
+ },
+ "207|συναλλαγή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλασ"
+ },
+ "207|αλλαγή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλασ"
+ },
+ "207|ανταλλαγή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλασ"
+ },
+ "207|διαλλακτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλασ"
+ },
+ "207|απαλλαγή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλασ"
+ },
+ "207|εναλλαγή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλαγ"
+ },
+ "207|αντάλλαγμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλλασ"
+ },
+ "207|διαλλακτής": {
+  "status": "transparent",
+  "needle": "αλλακ"
+ },
+ "208|θάρρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαρ"
+ },
+ "208|θαρραλέος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαρ"
+ },
+ "208|θρασύς": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θρασ"
+ },
+ "208|θράσος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαρ"
+ },
+ "208|αναθαρρώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαρ"
+ },
+ "209|επιθυμία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θυμ"
+ },
+ "209|επιθυμώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θυμ"
+ },
+ "209|επιθυμητός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θυμ"
+ },
+ "209|θυμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θυμ"
+ },
+ "209|ευθυμία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θυμ"
+ },
+ "209|άθυμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θυμ"
+ },
+ "209|ενθύμιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θυμ"
+ },
+ "210|οργή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οργ"
+ },
+ "210|οργίζομαι": {
+  "status": "transparent",
+  "needle": "οργ"
+ },
+ "210|οργίλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οργ"
+ },
+ "210|οργισμένος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οργ"
+ },
+ "211|ακόλαστος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κολαστ"
+ },
+ "211|ακολασία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακολα"
+ },
+ "211|κόλαση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κολασ"
+ },
+ "211|κολάζω": {
+  "status": "etym-mismatch"
+ },
+ "211|κολαστήριο": {
+  "status": "transparent",
+  "needle": "κολαστ"
+ },
+ "212|πράος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πραο"
+ },
+ "212|πραότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πραο"
+ },
+ "212|πράυνση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πραυν"
+ },
+ "213|ακολουθώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακολουθ"
+ },
+ "213|ακολουθία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακολουθ"
+ },
+ "213|ακόλουθος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακολουθ"
+ },
+ "213|επακόλουθο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακολουθ"
+ },
+ "213|συνακόλουθος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ακολουθ"
+ },
+ "214|ίσος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ισο"
+ },
+ "214|ισότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ισοτ"
+ },
+ "214|ισορροπία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ισο"
+ },
+ "214|ισημερία": {
+  "status": "etym-mismatch"
+ },
+ "214|ισότιμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ισοτ"
+ },
+ "214|ισόγειο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ισο"
+ },
+ "214|ισοδυναμία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ισο"
+ },
+ "215|ελάχιστος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελαχ"
+ },
+ "215|ελαττώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελαττ"
+ },
+ "215|ελάττωμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελαττ"
+ },
+ "215|ελαττωματικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελαττ"
+ },
+ "215|ελάχιστο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελαχ"
+ },
+ "216|βέλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαλλω"
+ },
+ "216|βολή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βολ"
+ },
+ "216|βλήμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαλλω"
+ },
+ "216|πρόβλημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαλλω"
+ },
+ "216|παραβολή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαλλω"
+ },
+ "216|υπερβολή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαλλω"
+ },
+ "216|σύμβολο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαλλω"
+ },
+ "216|διάβολος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαλλω"
+ },
+ "216|εμβόλιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαλλω"
+ },
+ "216|συμβολή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βολ"
+ },
+ "216|καταβολή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαλλω"
+ },
+ "217|υπεροχή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υπερ"
+ },
+ "217|υπερέχω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υπερε"
+ },
+ "217|υπέρβαση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υπερ"
+ },
+ "217|υπερτέρηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υπερ"
+ },
+ "218|αριθμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αριθμ"
+ },
+ "218|αριθμητική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αριθμ"
+ },
+ "218|αριθμητής": {
+  "status": "transparent",
+  "needle": "αριθμ"
+ },
+ "218|αριθμώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αριθμ"
+ },
+ "218|ανάριθμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αριθμ"
+ },
+ "219|φαγητό": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φαγ"
+ },
+ "219|σαρκοφάγος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εφαγο"
+ },
+ "219|οισοφάγος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εφαγο"
+ },
+ "219|παμφάγος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εφαγο"
+ },
+ "219|ανθρωποφάγος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φαγ"
+ },
+ "219|φάγωμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φαγ"
+ },
+ "219|φαγέδαινα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "φαγ"
+ },
+ "220|αλοιφή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλειφ"
+ },
+ "220|αλείφω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλειφ"
+ },
+ "220|άλειμμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αλειφ"
+ },
+ "220|αλείπτης": {
+  "status": "exam"
+ },
+ "221|γυμνάσιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γυμν"
+ },
+ "221|γυμναστική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γυμν"
+ },
+ "221|γυμναστής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γυμν"
+ },
+ "221|γυμνός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γυμν"
+ },
+ "221|γυμνάζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γυμν"
+ },
+ "222|δρόμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δρομ"
+ },
+ "222|δρομέας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δρομ"
+ },
+ "222|ιππόδρομος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δρομ"
+ },
+ "222|αεροδρόμιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δρομ"
+ },
+ "222|δρομολόγιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δρομ"
+ },
+ "223|πάλη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παλ"
+ },
+ "223|παλαιστής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παλ"
+ },
+ "223|παλαίστρα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παλ"
+ },
+ "223|παλεύω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "παλ"
+ },
+ "224|όριο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οριστ"
+ },
+ "224|ορισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οριζω"
+ },
+ "224|ορίζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οριζω"
+ },
+ "224|οριοθέτηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οριο"
+ },
+ "224|περιορισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οριζω"
+ },
+ "224|αόριστος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οριστ"
+ },
+ "224|ορίζοντας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οριζω"
+ },
+ "225|έλεος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελε"
+ },
+ "225|ελεημοσύνη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελε"
+ },
+ "225|ελεήμων": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελε"
+ },
+ "225|ελεεινός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελε"
+ },
+ "226|ηδονή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηδον"
+ },
+ "226|ηδονισμός": {
+  "status": "transparent",
+  "needle": "ηδον"
+ },
+ "226|ηδύποτο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηδυ"
+ },
+ "226|ηδυπαθής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηδυ"
+ },
+ "226|αηδία": {
+  "status": "etym-mismatch"
+ },
+ "227|λύπη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λυπ"
+ },
+ "227|λυπάμαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λυπ"
+ },
+ "227|λυπημένος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λυπ"
+ },
+ "227|λυπητερός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "λυπ"
+ },
+ "228|ψόγος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ψογ"
+ },
+ "228|ψεκτός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ψεγ"
+ },
+ "228|άψογος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ψογ"
+ },
+ "228|ψέγω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ψεγ"
+ },
+ "229|έπαινος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "επαιν"
+ },
+ "229|επαινώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αινε"
+ },
+ "229|επαινετικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αινε"
+ },
+ "229|παραίνεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αινε"
+ },
+ "229|αίνεση": {
+  "status": "transparent",
+  "needle": "αινε"
+ },
+ "230|κατόρθωμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορθ"
+ },
+ "230|κατορθώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορθ"
+ },
+ "230|ορθός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορθ"
+ },
+ "230|ορθογραφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορθ"
+ },
+ "230|ορθογώνιο": {
+  "status": "transparent",
+  "needle": "ορθ"
+ },
+ "230|ορθοδοξία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορθ"
+ },
+ "230|ορθώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορθ"
+ },
+ "230|ορθοπεδική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ορθ"
+ },
+ "231|προαίρεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιρεω"
+ },
+ "231|προαιρετικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "προαιρ"
+ },
+ "232|μέσος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεσ"
+ },
+ "232|μέση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεσ"
+ },
+ "232|μεσότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεσ"
+ },
+ "232|μεσαίος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεσ"
+ },
+ "232|μεσημέρι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεσ"
+ },
+ "232|Μεσόγειος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεσ"
+ },
+ "232|μεσίτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μεσ"
+ },
+ "233|κακία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κακοσ"
+ },
+ "233|κακός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κακοσ"
+ },
+ "233|κακοποιός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κακ"
+ },
+ "233|κακοήθης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κακ"
+ },
+ "233|κακοδαιμονία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κακοσ"
+ },
+ "233|κακουργία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κακοσ"
+ },
+ "234|αμφότερος": {
+  "status": "transparent",
+  "needle": "αμφ"
+ },
+ "234|αμφίβιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμφ"
+ },
+ "234|αμφιθέατρο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμφ"
+ },
+ "234|αμφιβολία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμφ"
+ },
+ "234|αμφί": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αμφ"
+ },
+ "235|κοινωνία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοιν"
+ },
+ "235|κοινός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοιν"
+ },
+ "235|κοινωνικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοιν"
+ },
+ "235|κοινότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοιν"
+ },
+ "235|κοινοβούλιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοιν"
+ },
+ "235|κοινοποίηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοιν"
+ },
+ "235|συγκοινωνία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοιν"
+ },
+ "236|σύσταση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στασ"
+ },
+ "236|στάση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιστ"
+ },
+ "236|κατάσταση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στασ"
+ },
+ "236|διάσταση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιστ"
+ },
+ "236|ανάσταση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιστ"
+ },
+ "236|υπόσταση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιστ"
+ },
+ "236|στατικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ιστ"
+ },
+ "236|στάσιμος": {
+  "status": "transparent",
+  "needle": "στασ"
+ },
+ "236|αντίσταση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στασ"
+ },
+ "237|δόξα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δοξ"
+ },
+ "237|δόγμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δοκ"
+ },
+ "237|δογματισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δοκ"
+ },
+ "237|δοκώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δοκ"
+ },
+ "237|παράδοξος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δοξ"
+ },
+ "237|ορθόδοξος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δοξ"
+ },
+ "237|δόκιμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δοκ"
+ },
+ "237|ενδοξος": {
+  "status": "transparent",
+  "needle": "δοξ"
+ },
+ "238|χάρη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χαρ"
+ },
+ "238|χάρισμα": {
+  "status": "transparent",
+  "needle": "χαρ"
+ },
+ "238|ευχαριστώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χαρ"
+ },
+ "238|χαρίζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χαρ"
+ },
+ "238|χαρά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χαρ"
+ },
+ "238|χαίρω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χαι"
+ },
+ "239|κλήση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κλη"
+ },
+ "239|εκκλησία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κλη"
+ },
+ "239|κάλεσμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "καλ"
+ },
+ "239|παράκληση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κλη"
+ },
+ "239|σύγκληση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κλη"
+ },
+ "239|πρόσκληση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κλη"
+ },
+ "240|κώμη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κωμ"
+ },
+ "240|κωμόπολη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κωμ"
+ },
+ "241|πέρας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "περ"
+ },
+ "241|πέρασμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "περ"
+ },
+ "241|περαίωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "περ"
+ },
+ "241|απέραντος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "περ"
+ },
+ "241|περατώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "περ"
+ },
+ "242|αυτάρκεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρκ"
+ },
+ "242|αυτάρκης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρκ"
+ },
+ "242|αρκώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρκ"
+ },
+ "242|αρκετός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αρκ"
+ },
+ "243|έπος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "εποσ"
+ },
+ "243|επικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "επικ"
+ },
+ "244|μέλισσα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελισσ"
+ },
+ "244|μελισσοκομία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελισσ"
+ },
+ "244|μελισσοκόμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελισσ"
+ },
+ "244|μέλι": {
+  "status": "etym-mismatch"
+ },
+ "245|μάταιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ματ"
+ },
+ "245|ματαιοδοξία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ματ"
+ },
+ "245|ματαιώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ματ"
+ },
+ "245|ματαιοπονία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ματ"
+ },
+ "246|έλευση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ερχομ"
+ },
+ "246|επέλευση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ερχομ"
+ },
+ "246|προσέλευση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ερχομ"
+ },
+ "246|προσήλυτος": {
+  "status": "transparent",
+  "needle": "ηλυτ"
+ },
+ "246|εισέλευση": {
+  "status": "transparent",
+  "needle": "ελευσ"
+ },
+ "247|δήλωση": {
+  "status": "exam"
+ },
+ "247|δηλώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δηλ"
+ },
+ "247|πρόδηλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δηλ"
+ },
+ "247|δηλαδή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δηλ"
+ },
+ "247|άδηλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δηλ"
+ },
+ "248|συμφέρον": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "συμφερ"
+ },
+ "248|συμφορά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "συμφερ"
+ },
+ "248|συμφέρει": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "συμφερ"
+ },
+ "249|δαπάνη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δαπαν"
+ },
+ "249|δαπανώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δαπαν"
+ },
+ "249|δαπανηρός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δαπαν"
+ },
+ "250|δείπνο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δειπν"
+ },
+ "250|δειπνώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δειπν"
+ },
+ "250|δειπνοσοφιστής": {
+  "status": "transparent",
+  "needle": "δειπν"
+ },
+ "251|χορηγία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χορ"
+ },
+ "251|χορηγός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χορ"
+ },
+ "251|χορηγώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χορ"
+ },
+ "251|χορός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χορ"
+ },
+ "251|χορογραφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χορ"
+ },
+ "251|χορωδία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χορ"
+ },
+ "252|μόριο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μοριο"
+ },
+ "252|μοριακός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μοριο"
+ },
+ "252|μοριοδότηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μοριο"
+ },
+ "253|ένας": {
+  "status": "exam"
+ },
+ "253|ενότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ενοτ"
+ },
+ "253|ενώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ενοω"
+ },
+ "253|ένωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ενοω"
+ },
+ "253|μία": {
+  "status": "etym-mismatch"
+ },
+ "253|ενιαίος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ενιαι"
+ },
+ "253|ενοποίηση": {
+  "status": "etym-mismatch"
+ },
+ "254|μουσική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μουσι"
+ },
+ "254|μουσικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μουσι"
+ },
+ "254|μουσείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μουσ"
+ },
+ "254|μούσα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μουσ"
+ },
+ "255|όνειρο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ονειρ"
+ },
+ "255|ονειροπόλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ονειρ"
+ },
+ "255|ονειρεύομαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οναρ"
+ },
+ "255|ονειρικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ονειρ"
+ },
+ "256|τύπος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τυπ"
+ },
+ "256|τυπικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τυπ"
+ },
+ "256|τύπωμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τυπ"
+ },
+ "256|τυπογραφείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τυπ"
+ },
+ "256|αρχέτυπο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τυπ"
+ },
+ "256|ανατύπωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τυπ"
+ },
+ "256|πρότυπο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τυπ"
+ },
+ "256|τυποποίηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τυπ"
+ },
+ "257|βάρβαρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαρβαρ"
+ },
+ "257|βαρβαρότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαρβαρ"
+ },
+ "257|βαρβαρισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βαρβαρ"
+ },
+ "257|βαρβαρικός": {
+  "status": "transparent",
+  "needle": "βαρβαρ"
+ },
+ "258|δεσπότης": {
+  "status": "transparent",
+  "needle": "δεσποτ"
+ },
+ "258|δεσποτισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεσποτ"
+ },
+ "258|δεσποτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεσποτ"
+ },
+ "258|οικοδεσπότης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεσποτ"
+ },
+ "259|στάση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στασ"
+ },
+ "259|στασιαστής": {
+  "status": "transparent",
+  "needle": "στασ"
+ },
+ "259|στασιάζω": {
+  "status": "transparent",
+  "needle": "στασ"
+ },
+ "260|ύπουλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υπουλ"
+ },
+ "260|υπουλότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υπουλ"
+ },
+ "261|βία": {
+  "status": "etym-mismatch"
+ },
+ "261|βιασμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βιαζ"
+ },
+ "261|βίαιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βιαιο"
+ },
+ "261|βιάζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βιαζ"
+ },
+ "261|βιαστής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βιαζ"
+ },
+ "261|βιαστικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βιαζ"
+ },
+ "262|μίγμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μιγ"
+ },
+ "262|μείγμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μιγ"
+ },
+ "262|αμιγής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μιγνυ"
+ },
+ "262|μίξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μιγνυ"
+ },
+ "262|ανάμειξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μιξ"
+ },
+ "262|μικτός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μικτ"
+ },
+ "263|κεφάλαιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κεφαλαι"
+ },
+ "263|κεφαλαιούχος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κεφαλαι"
+ },
+ "263|κεφαλαιώδης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κεφαλαι"
+ },
+ "263|κεφαλαιοποίηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κεφαλαι"
+ },
+ "264|αίρεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιρεσ"
+ },
+ "264|αιρετικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιρετ"
+ },
+ "264|προαίρεση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιρεσ"
+ },
+ "265|άνθρωπος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανθρωπ"
+ },
+ "265|ανθρώπινος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανθρωπ"
+ },
+ "265|ανθρωπιά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανθρωπ"
+ },
+ "265|ανθρωπισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανθρωπ"
+ },
+ "265|ανθρωπότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανθρωπ"
+ },
+ "265|ανθρωπολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανθρωπ"
+ },
+ "265|μισάνθρωπος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανθρωπ"
+ },
+ "265|ανθρωπιστής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανθρωπ"
+ },
+ "266|μόνος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μον"
+ },
+ "266|μονάδα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μον"
+ },
+ "266|μονόλογος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μον"
+ },
+ "266|μονοπώλιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μον"
+ },
+ "266|μοναδικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μον"
+ },
+ "266|μονάρχης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μον"
+ },
+ "266|μοναστήρι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μον"
+ },
+ "266|μονότονος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μον"
+ },
+ "267|αυτονομία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αυτο"
+ },
+ "267|αυτόματος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αυτο"
+ },
+ "267|αυτοκίνητο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αυτο"
+ },
+ "267|αυτοβιογραφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αυτο"
+ },
+ "267|αυτουργός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αυτο"
+ },
+ "267|αυτάρκεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αυτο"
+ },
+ "268|ετερογενής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ετερ"
+ },
+ "268|ετερόκλητος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ετερ"
+ },
+ "268|ετερόφωνος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ετερ"
+ },
+ "268|ετεροδοξία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ετερ"
+ },
+ "268|ετερώνυμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ετερ"
+ },
+ "269|μέλλον": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελλω"
+ },
+ "269|μελλοντικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελλ"
+ },
+ "269|μέλλων": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελλω"
+ },
+ "269|μέλλουσα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μελλω"
+ },
+ "270|διώκω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διωκ"
+ },
+ "270|διωγμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διωγ"
+ },
+ "270|δίωξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διωξ"
+ },
+ "270|καταδίωξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διωκ"
+ },
+ "270|διώκτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "διωκ"
+ },
+ "271|κόπος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοπ"
+ },
+ "271|κοπιάζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοπ"
+ },
+ "271|κοπιώδης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοπ"
+ },
+ "271|κοπιαστικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κοπ"
+ },
+ "271|ακατάκοπος": {
+  "status": "transparent",
+  "needle": "κοπ"
+ },
+ "272|υγεία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υγι"
+ },
+ "272|υγιής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υγι"
+ },
+ "272|υγιεινή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υγι"
+ },
+ "272|υγιεινός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υγι"
+ },
+ "272|υγειονομικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υγε"
+ },
+ "273|χρόνος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρον"
+ },
+ "273|χρονικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρον"
+ },
+ "273|χρονολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρον"
+ },
+ "273|χρονικό": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρον"
+ },
+ "273|σύγχρονος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρον"
+ },
+ "273|χρονίζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρον"
+ },
+ "273|αναχρονισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρον"
+ },
+ "273|χρονόμετρο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χρον"
+ },
+ "274|θνητός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θνη"
+ },
+ "274|θνησιμότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θνη"
+ },
+ "274|θάνατος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαν"
+ },
+ "274|αθάνατος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαν"
+ },
+ "274|θανατηφόρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "θαν"
+ },
+ "275|αίτημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιτεω"
+ },
+ "275|αίτηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιτ"
+ },
+ "275|απαιτώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιτ"
+ },
+ "275|παραίτηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιτ"
+ },
+ "275|αιτία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιτ"
+ },
+ "275|αίτιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιτ"
+ },
+ "275|αιτιολογία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιτ"
+ },
+ "275|αιτιατική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιτ"
+ },
+ "276|μικρός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μικρ"
+ },
+ "276|μικροσκόπιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μικρ"
+ },
+ "276|μικρόβιο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μικρ"
+ },
+ "276|μικρόκοσμος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μικρ"
+ },
+ "276|σμίκρυνση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σμικρ"
+ },
+ "276|μικροσκοπικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μικρ"
+ },
+ "277|πτηνό": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πτη"
+ },
+ "277|πτήση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πτη"
+ },
+ "277|πτέρυγα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πτερ"
+ },
+ "277|πτερό": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πτερ"
+ },
+ "277|ελικόπτερο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πτερ"
+ },
+ "277|πτηνοτροφείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πτη"
+ },
+ "278|αύξηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αυξ"
+ },
+ "278|αυξάνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αυξ"
+ },
+ "278|αυξητικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αυξ"
+ },
+ "278|αύξουσα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αυξ"
+ },
+ "278|αυξομείωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αυξ"
+ },
+ "279|χειμώνας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειμ"
+ },
+ "279|χειμερινός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειμ"
+ },
+ "279|χείμαρρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειμ"
+ },
+ "279|χειμωνιάτικος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειμ"
+ },
+ "279|παραχειμάζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "χειμ"
+ },
+ "280|καύση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "καυσ"
+ },
+ "280|καυτός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "καυσ"
+ },
+ "280|καύσιμο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "καυσ"
+ },
+ "280|καύσωνας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "καυσ"
+ },
+ "280|ολοκαύτωμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "καυσ"
+ },
+ "280|έγκαυμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "καυ"
+ },
+ "280|καυστήρας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "καυσ"
+ },
+ "281|στερεό": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στερε"
+ },
+ "281|στερεότυπο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στερε"
+ },
+ "281|στερεοφωνικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στερε"
+ },
+ "281|στερεομετρία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στερε"
+ },
+ "281|στερέωση": {
+  "status": "transparent",
+  "needle": "στερε"
+ },
+ "282|αίμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιμ"
+ },
+ "282|αιμορραγία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιμ"
+ },
+ "282|αιματηρός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιμ"
+ },
+ "282|αναιμία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αιμ"
+ },
+ "282|αιμοσφαίριο": {
+  "status": "transparent",
+  "needle": "αιμ"
+ },
+ "282|αιμοδοσία": {
+  "status": "transparent",
+  "needle": "αιμ"
+ },
+ "283|καρπός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "καρπ"
+ },
+ "283|καρποφόρος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "καρπ"
+ },
+ "283|καρποφορία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "καρπ"
+ },
+ "283|καρπώνομαι": {
+  "status": "transparent",
+  "needle": "καρπ"
+ },
+ "284|προϊόν": {
+  "status": "exam"
+ },
+ "284|ισθμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ισθμ"
+ },
+ "284|ιόν": {
+  "status": "exam"
+ },
+ "284|ιονόσφαιρα": {
+  "status": "transparent",
+  "needle": "ιονο"
+ },
+ "284|ιονισμός": {
+  "status": "etym-mismatch"
+ },
+ "285|ηφαίστειο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηφαιστ"
+ },
+ "285|ηφαιστειογενής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηφαιστ"
+ },
+ "285|ηφαιστειακός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηφαιστ"
+ },
+ "285|Ήφαιστος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηφαιστ"
+ },
+ "286|ερμητικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ερμ"
+ },
+ "286|ερμαϊκός": {
+  "status": "transparent",
+  "needle": "ερμ"
+ },
+ "286|ερμαφρόδιτος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ερμ"
+ },
+ "286|Ερμής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ερμ"
+ },
+ "287|άνδρας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανδρ"
+ },
+ "287|ανδρικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανδρ"
+ },
+ "287|ανδριάντας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανδρ"
+ },
+ "287|πολυάνδριο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανδρ"
+ },
+ "287|ανδραγάθημα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ανδρ"
+ },
+ "287|ανδροκρατία": {
+  "status": "verified",
+  "hops": 1,
+  "needle": "ανδρ",
+  "via": "ἀνήρ"
+ },
+ "288|βελτίωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βελτι"
+ },
+ "288|βελτιώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βελτι"
+ },
+ "288|βέλτιστος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βελτι"
+ },
+ "288|βελτιωτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βελτι"
+ },
+ "288|βελτιστοποίηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "βελτι"
+ },
+ "289|σκέλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκελο"
+ },
+ "289|ισοσκελές": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκελ"
+ },
+ "289|σκελετός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκελ"
+ },
+ "290|κύκλος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κυκλο"
+ },
+ "290|κυκλικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κυκλο"
+ },
+ "290|κυκλοφορία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κυκλο"
+ },
+ "290|κυκλώνας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κυκλο"
+ },
+ "290|εγκυκλοπαίδεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κυκλο"
+ },
+ "290|κυκλοφορώ": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "κυκλο"
+ },
+ "291|σκεύος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκευο"
+ },
+ "291|σκευοφόρος": {
+  "status": "transparent",
+  "needle": "σκευο"
+ },
+ "291|παρασκευή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκευ"
+ },
+ "291|κατασκευή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκευ"
+ },
+ "291|σκευωρία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκευ"
+ },
+ "292|σκιά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκι"
+ },
+ "292|σκιώδης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκι"
+ },
+ "292|σκιαγραφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκι"
+ },
+ "292|σκιερός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκι"
+ },
+ "292|σκιάχτρο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "σκι"
+ },
+ "293|πτώση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πιπτ"
+ },
+ "293|πτώμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πτωμ"
+ },
+ "293|σύμπτωμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πιπτ"
+ },
+ "293|περίπτωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πιπτ"
+ },
+ "293|πρόσπτωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πιπτ"
+ },
+ "293|εμπίπτω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πιπτ"
+ },
+ "294|οπίσθιος": {
+  "status": "transparent",
+  "needle": "οπισθ"
+ },
+ "294|οπισθοφυλακή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οπισθ"
+ },
+ "294|οπισθοδρόμηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οπισθ"
+ },
+ "294|οπισθοχώρηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "οπισθ"
+ },
+ "295|διατριβή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τριβω"
+ },
+ "295|τριβή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τριβω"
+ },
+ "295|τρίβω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τριβω"
+ },
+ "295|τριβείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τριβω"
+ },
+ "295|εντριβής": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "τριβω"
+ },
+ "296|νησί": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νησοσ"
+ },
+ "296|νησιώτης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νησοσ"
+ },
+ "296|χερσόνησος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νησοσ"
+ },
+ "296|Πελοπόννησος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νησοσ"
+ },
+ "296|νησιωτικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "νησ"
+ },
+ "297|περιττός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "περιττ"
+ },
+ "297|περισσεύω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "περιττ"
+ },
+ "297|περίσσευμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "περιττ"
+ },
+ "297|περίσσεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "περισσ"
+ },
+ "297|περισσότερος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "περισσ"
+ },
+ "298|ευθύς": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ευθυσ"
+ },
+ "298|ευθεία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ευθυσ"
+ },
+ "298|ευθύνη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ευθ"
+ },
+ "298|ευθυγραμμίζω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ευθ"
+ },
+ "299|μυριάδα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μυρι"
+ },
+ "299|μυρίοι": {
+  "status": "transparent",
+  "needle": "μυριο"
+ },
+ "299|εκατομμύριο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μυριο"
+ },
+ "299|μυριάκις": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "μυρι"
+ },
+ "300|ρίψη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ριπτω"
+ },
+ "300|ριπή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ριπ"
+ },
+ "300|ριψοκίνδυνος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ριπτω"
+ },
+ "300|ρίπτω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ριπτω"
+ },
+ "301|αίσθηση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αισθα"
+ },
+ "301|αισθητός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αισθα"
+ },
+ "301|αισθητήριο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αισθ"
+ },
+ "301|αναισθησία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αισθ"
+ },
+ "301|αισθάνομαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αισθα"
+ },
+ "301|αισθητική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "αισθ"
+ },
+ "302|δέκα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεκα"
+ },
+ "302|δεκαετία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεκα"
+ },
+ "302|δεκάδα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεκα"
+ },
+ "302|δεκάρικο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεκα"
+ },
+ "302|δεκαδικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "δεκα"
+ },
+ "303|ήττα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηττ"
+ },
+ "303|ηττώμαι": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηττ"
+ },
+ "303|ηττημένος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηττ"
+ },
+ "303|ηττοπάθεια": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ηττ"
+ },
+ "304|ύπαρξη": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υπαρξ"
+ },
+ "304|υπαρκτός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υπαρχ"
+ },
+ "304|υπάρχω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υπαρχ"
+ },
+ "304|υπαρξιακός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υπαρξ"
+ },
+ "304|υπάρχοντα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "υπαρχ"
+ },
+ "305|στοά": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στοα"
+ },
+ "305|στωικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στοα"
+ },
+ "305|στωικισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στωικ"
+ },
+ "305|στωικότητα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "στωικ"
+ },
+ "306|γραφή": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γραφ"
+ },
+ "306|γράμμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γραφ"
+ },
+ "306|γραμματική": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γραμμ"
+ },
+ "306|γραφείο": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γραφ"
+ },
+ "306|ζωγράφος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γραφ"
+ },
+ "306|βιογραφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γραφ"
+ },
+ "306|φωτογραφία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "γραφ"
+ },
+ "307|Έλληνας": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελλην"
+ },
+ "307|ελληνικός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελλην"
+ },
+ "307|ελληνισμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελλην"
+ },
+ "307|Ελλάδα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελλαδ"
+ },
+ "307|πανελλήνιος": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "ελλην"
+ },
+ "308|πλήρης": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πληρ"
+ },
+ "308|πληρώνω": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πληρ"
+ },
+ "308|πλήρωμα": {
+  "status": "transparent",
+  "needle": "πληρ"
+ },
+ "308|εκπλήρωση": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πληρ"
+ },
+ "308|πληθυσμός": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πληθ"
+ },
+ "308|συμπλήρωμα": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πληρ"
+ },
+ "308|πληροφορία": {
+  "status": "verified",
+  "hops": 0,
+  "needle": "πληρ"
+ }
+}

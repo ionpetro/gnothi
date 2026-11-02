@@ -3,7 +3,7 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
 const { loadUnits, unitFiles } = require("../src/course.js");
-const { validateCourse } = require("../tools/validate.js");
+const { validateCourse, KINDS } = require("../tools/validate.js");
 const { Engine: E } = require("../src/engine.js");
 
 const units = loadUnits({ example: true });
@@ -23,8 +23,17 @@ test("every unit passes the content validator", () => {
 test("the example unit uses every item kind", () => {
   const ex = units.find((u) => u.id === "u0_example");
   const kinds = new Set(ex.lessons.flatMap((l) => l.items.map((i) => i.kind)));
-  for (const k of ["word", "sentence", "form", "rule", "role", "clause", "transform", "fact", "hook", "origin", "trap"]) assert.ok(kinds.has(k), `example lacks kind ${k}`);
+  for (const k of KINDS) assert.ok(kinds.has(k), `example lacks kind ${k}`);
 });
+
+test("ancient Greek shown to the student is polytonic, explanations are Greek", () => {
+  for (const it of IX.items.values()) {
+    for (const f of ["grc", "given", "from", "grc_quote"]) if (it[f] && it[f].split(/\s+/).length > 1) assert.ok(E.isPolytonic(it[f]), `${it.id}.${f} must be polytonic`);
+    for (const f of ["say", "why", "el", "ask"]) if (it[f]) assert.ok(E.hasGreekLetters(it[f]), `${it.id}.${f} must be Greek`);
+  }
+});
+
+const distinctKey = (q) => (q.strict ? E.strictKey : E.norm);
 
 /** Structural checks a rendered question must satisfy. */
 function checkQ(q, where) {
@@ -33,7 +42,7 @@ function checkQ(q, where) {
   assert.ok(q.label, `${where}: label`);
   if (q.type === "mcq") {
     assert.ok(q.options.includes(q.answer), `${where}: answer missing from options (${q.prompt})`);
-    assert.equal(new Set(q.options.map(E.norm)).size, q.options.length, `${where}: duplicate options ${q.options.join("|")}`);
+    assert.equal(new Set(q.options.map(distinctKey(q))).size, q.options.length, `${where}: duplicate options ${q.options.join("|")}`);
     assert.ok(q.options.length >= 3, `${where}: too few options`);
   } else if (q.type === "tf") {
     assert.equal(typeof q.answer, "boolean", where);
@@ -58,10 +67,10 @@ function checkQ(q, where) {
     assert.ok(q.answer.length >= 1, `${where}: find has no target`);
     for (const i of q.answer) assert.ok(q.words[i] !== undefined, `${where}: bad token index`);
   } else if (q.type === "steps") {
-    assert.equal(q.steps.length, 5, where);
+    assert.equal(q.steps.length, 6, where);
     for (const st of q.steps) { assert.ok(st.options.includes(st.answer), `${where}: step answer missing`); assert.ok(st.options.length >= 3, `${where}: step needs 3 options`); assert.equal(new Set(st.options.map(E.norm)).size, st.options.length, `${where}: duplicate step options`); }
   } else if (q.type === "transform") {
-    // play it the way the UI does: each tile can be placed once, so a repeated word («et … et») needs two tiles
+    // play it the way the UI does: each tile can be placed once, so a repeated word needs two tiles
     const left = q.tiles.map(E.stripMarks);
     for (const a of q.answer) { const i = left.indexOf(E.stripMarks(a)); assert.ok(i >= 0, `${where}: tile "${a}" missing (or needed more than once)`); left.splice(i, 1); }
     assert.ok(q.tiles.length > q.answer.length, `${where}: no wrong-form tiles`);
@@ -70,7 +79,17 @@ function checkQ(q, where) {
     assert.equal(typeof q.isRight, "boolean", where);
   } else if (q.type === "type") {
     assert.ok(Array.isArray(q.answer) && q.answer.length >= 1, where);
-    if (q.tiles) for (const a of q.answer.slice(0, 1)) assert.ok(E.norm(q.tiles.filter((t) => !["um", "ium", "is", "ibus", "e", "i", "o", "a", "ae", "arum", "orum", "to", "te", "tote", "nto", "re", "ri", "isse", "nd"].includes(t) || true).join("")).length >= E.norm(a).length, where);
+    if (q.tiles) { const it = IX.items.get(q.itemId); for (const t of it.tiles) assert.ok(q.tiles.includes(t), `${where}: tile "${t}" missing`); }
+  } else if (q.type === "label") {
+    assert.ok(q.options.includes(q.answer), `${where}: label answer missing`);
+    assert.ok(q.head.length >= 1 && q.head.every((i) => q.words[i] !== undefined), `${where}: head word index`);
+  } else if (q.type === "chain") {
+    const reals = q.tiles.filter((t) => t.real).map((t) => t.el);
+    assert.deepEqual(reals.slice().sort(), q.answer.slice().sort(), `${where}: chain tiles vs answer`);
+    assert.ok(q.tiles.length > q.answer.length, `${where}: no distractor tiles`);
+  } else if (q.type === "checklist") {
+    assert.ok(q.items.some((x) => x.real) && q.items.some((x) => !x.real), `${where}: checklist needs real and wrong points`);
+    assert.deepEqual(q.items.filter((x) => x.real).map((x) => x.text).sort(), q.answer.slice().sort(), where);
   } else if (q.type === "swipe") {
     assert.ok(q.cards.length >= 1, where);
   } else assert.fail(`${where}: unknown question type ${q.type}`);
@@ -108,7 +127,7 @@ test("review questions exist for every quizzable item", () => {
   }
 });
 
-test("practice, swipe, Colosseum, daily drill and mock build valid questions for a learner", () => {
+test("practice, swipe, Στάδιο, Θέμα της ημέρας and the mock build valid questions for a learner", () => {
   const s = E.freshState();
   for (const it of [...IX.items.values()].slice(0, 30)) E.learn(s, it.id, "2026-10-01");
   const steps = E.buildPractice(IX, s, 7);
@@ -117,16 +136,21 @@ test("practice, swipe, Colosseum, daily drill and mock build valid questions for
   const sw = E.buildSwipe(IX, s, 3);
   if (sw) checkQ(sw, "swipe");
   const r = E.rng(5);
-  for (let i = 0; i < 200; i++) { const q = E.colosseumQuestion(IX, s, r); checkQ(q, `colosseum #${i}`); if (q.type === "mcq") assert.equal(q.options.length, 3, "colosseum has 3 options"); }
-  for (let i = 0; i < 50; i++) checkQ(E.colosseumQuestion(IX, E.freshState(), r), `colosseum new #${i}`);
+  for (let i = 0; i < 200; i++) { const q = E.stadionQuestion(IX, s, r); checkQ(q, `stadion #${i}`); if (q.type === "mcq") assert.equal(q.options.length, 3, "the Στάδιο has 3 options"); }
+  for (let i = 0; i < 50; i++) checkQ(E.stadionQuestion(IX, E.freshState(), r), `stadion new #${i}`);
   for (let d = 0; d < 14; d++) {
     const day = E.addDays("2026-11-02", d);
-    const daily = E.buildDaily(IX, s, day);
-    assert.ok(daily.steps.length >= 1, `${day}: empty daily`);
-    daily.steps.forEach((q, i) => { checkQ(q, `daily ${day} #${i}`); assert.ok(q.marks > 0, "daily question carries marks"); });
-    assert.deepEqual(E.buildDaily(IX, s, day).steps.map((q) => q.itemId), daily.steps.map((q) => q.itemId), "daily is the same when reopened");
+    for (const state of [s, E.freshState()]) {
+      const daily = E.buildDaily(IX, state, day);
+      assert.ok(daily.steps.length >= 1, `${day}: empty daily`);
+      daily.steps.forEach((q, i) => { checkQ(q, `daily ${day} #${i}`); assert.ok(q.marks > 0, "daily question carries marks"); });
+      assert.deepEqual(E.buildDaily(IX, state, day).steps.map((q) => q.itemId), daily.steps.map((q) => q.itemId), "daily is the same when reopened");
+    }
   }
   const mock = E.buildMock(IX, s, 9);
-  assert.ok(mock.steps.length >= 5);
+  assert.ok(mock.steps.length >= 9);
   mock.steps.forEach((q, i) => checkQ(q, `mock #${i}`));
+  const secs = new Set(mock.steps.map((q) => q.section));
+  for (const sec of E.SECTIONS) assert.ok(secs.has(sec), `mock lacks Θέμα ${sec}`);
+  assert.equal(Math.round(mock.steps.reduce((a, q) => a + q.marks, 0)), 100);
 });

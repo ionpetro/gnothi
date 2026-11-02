@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130 120" role="img" aria-label="Η Γλαύκη, η κουκουβάγια της Αθηνάς">
+  <ellipse cx="65" cy="113" rx="42" ry="4.5" fill="#e1dbcd"/>
+  <path d="M32 72q0-40 33-40t33 40v18q0 20-33 20T32 90z" fill="#8c7b66"/>
+  <path d="M28 76q-14-10-10-30" stroke="#5b4d3f" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M102 76q14-10 10-30" stroke="#5b4d3f" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <ellipse cx="65" cy="92" rx="22" ry="18" fill="#f1e8d6"/><path d="M53 84q4 4 8 0M61 92q4 4 8 0M69 84q4 4 8 0M57 100q4 4 8 0M65 100q4 4 8 0" stroke="#8c7b66" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M38 36 28 8l20 22z" fill="#5b4d3f"/><path d="M92 36l10-28-20 22z" fill="#5b4d3f"/>
+  <path d="M36 42q29-14 58 0" stroke="#5b4d3f" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="52" cy="58" r="15" fill="#f1e8d6"/><circle cx="78" cy="58" r="15" fill="#f1e8d6"/>
+  <circle cx="52" cy="58" r="12" fill="#f2b826"/><circle cx="78" cy="58" r="12" fill="#f2b826"/>
+  <circle cx="52" cy="59" r="6" fill="#2b2a33"/><circle cx="78" cy="59" r="6" fill="#2b2a33"/>
+  <circle cx="54.2" cy="56.5" r="2" fill="#fff"/><circle cx="80.2" cy="56.5" r="2" fill="#fff"/>
+  <path d="M60 70q5 7 10 0z" fill="#d98c2b"/>
+  <path d="M50 106l-5 6M50 106l0 7M50 106l5 6M80 106l-5 6M80 106l0 7M80 106l5 6" stroke="#d98c2b" stroke-width="3" stroke-linecap="round"/>
+</svg>

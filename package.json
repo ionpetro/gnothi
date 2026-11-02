@@ -8,6 +8,7 @@
   "scripts": {
     "test": "node --test \"app/test/*.test.js\"",
     "validate": "node app/tools/validate.js",
-    "build": "node app/build.mjs"
+    "build": "node app/build.mjs",
+    "build:example": "GNOTHI_INCLUDE_EXAMPLE=1 node app/build.mjs"
   }
 }

@@ -16,7 +16,7 @@ const { buildSite } = await import("./site.mjs");
 
 const r = (p) => readFileSync(new URL(p, import.meta.url), "utf8");
 const strip = (js) => js.replace(/^if \(typeof module[^\n]*\n?/m, "");
-const files = unitFiles({ example: process.env.CARPE_INCLUDE_EXAMPLE === "1" });
+const files = unitFiles({ example: process.env.GNOTHI_INCLUDE_EXAMPLE === "1" });
 const units = files.map((f) => `// ---- ${f.split("/").pop()} ----\n${readFileSync(f, "utf8")}`).join("\n");
 
 const out = r("./src/shell.html")
