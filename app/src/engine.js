@@ -392,17 +392,43 @@ const Engine = (() => {
   const lemmaOf = (it) => String(it.grc || it.lemma || "").replace(/^(ὁ|ἡ|τό|οἱ|αἱ|τά|ὁ, ἡ|ὁ\/ἡ)\s+/u, "").trim();
 
   /** Items of a lesson split into sittings of roughly SITTING_WEIGHT graded steps. */
+  /**
+   * A wall of three or more rule cards in a row is spread over the non-rule items that follow it
+   * (the first rule stays, the others are dealt out evenly, every group keeping its order), so a
+   * sitting is never «five rules and their quizzes» before the student touches a single Greek form.
+   */
+  function spreadRules(items) {
+    const out = [];
+    let i = 0;
+    while (i < items.length) {
+      if (items[i].kind !== "rule") { out.push(items[i]); i += 1; continue; }
+      let j = i; while (j < items.length && items[j].kind === "rule") j += 1;
+      const rules = items.slice(i, j);
+      let k = j; while (k < items.length && items[k].kind !== "rule") k += 1;
+      const others = items.slice(j, k);
+      if (rules.length < 3 || !others.length) { out.push(...rules, ...others); i = k; continue; }
+      const chunk = Math.max(1, Math.floor(others.length / rules.length));
+      let o = 0;
+      for (const rule of rules) { out.push(rule); out.push(...others.slice(o, o + chunk)); o += chunk; }
+      out.push(...others.slice(o));
+      i = k;
+    }
+    return out;
+  }
   function lessonSittings(ix, lessonId) {
     const l = ix.lessons.find((x) => x.id === lessonId);
     if (!l) return [];
     const out = [[]];
     let w = 0;
-    for (const it of l.items) {
+    for (const it of spreadRules(l.items)) {
       const iw = itemWeight(it);
       if (w + iw > SITTING_WEIGHT && out[out.length - 1].length) { out.push([]); w = 0; }
       out[out.length - 1].push(it.id);
       w += iw;
     }
+    // a stub of a last sitting (under half a sitting's weight) joins the one before it: never «one rule and one form» as a part
+    const rulesOnly = (sit) => sit.every((id) => (ix.items.get(id) || {}).kind === "rule");
+    if (out.length > 1 && (w < SITTING_WEIGHT / 2 || rulesOnly(out[out.length - 1]))) out[out.length - 2].push(...out.pop());
     return out;
   }
 
@@ -654,16 +680,22 @@ const Engine = (() => {
   }
 
   // roles (Γ4α)
+  /** «ΛΕΞΗ: χαρακτηρισμός στο ΚΥΡΙΑ ΛΕΞΗ.» The «στο …» is added only when the marker phrase does not already name the head word. */
+  function roleExplain(it) {
+    const head = String(it.dep || "").replace(/^στ\S*\s+/u, "");
+    const named = !it.dep || (head && norm(it.answer[0]).includes(norm(head)));
+    return `${it.w}: ${it.answer[0]}${named ? "" : " " + it.dep}. ${it.why || ""}`.trim();
+  }
   function qRoleMcq(ix, it, r, { guess = false } = {}) {
     const wrong = distinctBy((it.distractors || []).filter((d) => !accepts(it.answer, d)), 3, r, it.answer, norm);
-    return { type: "mcq", itemId: it.id, guess, label: guess ? L.guess : L.role, prompt: `${wrap(it.w)}: είναι …`, word: it.grc, hl: it.w, options: shuffle([it.answer[0], ...wrong], r), answer: it.answer[0], explain: `${it.w}: ${it.answer[0]} ${it.dep}. ${it.why || ""}`.trim() };
+    return { type: "mcq", itemId: it.id, guess, label: guess ? L.guess : L.role, prompt: `${wrap(it.w)}: είναι …`, word: it.grc, hl: it.w, options: shuffle([it.answer[0], ...wrong], r), answer: it.answer[0], explain: roleExplain(it) };
   }
   function qRoleBuild(ix, it, r) {
     const others = ix.byKind.role.filter((x) => x.id !== it.id).flatMap((x) => x.tiles || []);
     const extra = distinctBy(others.filter((t) => !it.tiles.some((u) => norm(u) === norm(t))), 2, r, it.tiles, norm);
     const fallback = ["γενική κτητική", "αντικείμενο", "κατηγορούμενο"].filter((t) => !it.tiles.some((u) => norm(u) === norm(t)));
     const tiles = shuffle([...it.tiles, ...(extra.length >= 2 ? extra : extra.concat(fallback.slice(0, 2 - extra.length)))], r);
-    return { type: "build", itemId: it.id, label: L.role, prompt: `${wrap(it.w)}: είναι …`, word: it.grc, hl: it.w, tiles, answer: it.tiles, explain: `${it.w}: ${it.answer[0]} ${it.dep}. ${it.why || ""}`.trim() };
+    return { type: "build", itemId: it.id, label: L.role, prompt: `${wrap(it.w)}: είναι …`, word: it.grc, hl: it.w, tiles, answer: it.tiles, explain: roleExplain(it) };
   }
   /** «Πλήρως συντακτικά»: pick the label AND tap the head word («στο …») in the sentence. */
   function qLabel(ix, it, r) {
@@ -672,7 +704,7 @@ const Engine = (() => {
     const head = findPhrase(toks, it.head);
     if (!head.length) return null;
     const wrong = distinctBy((it.distractors || []).filter((d) => !accepts(it.answer, d)), 3, r, it.answer, norm);
-    return { type: "label", itemId: it.id, label: L.label, prompt: `${wrap(it.w)}: είναι … Διάλεξε τον χαρακτηρισμό και μετά πάτα τη λέξη στην οποία αναφέρεται («στο …»)`, word: it.grc, hl: it.w, options: shuffle([it.answer[0], ...wrong], r), answer: it.answer[0], words: toks, head, dep: it.dep, explain: `${it.w}: ${it.answer[0]} ${it.dep}. ${it.why || ""}`.trim() };
+    return { type: "label", itemId: it.id, label: L.label, prompt: `${wrap(it.w)}: είναι … Διάλεξε τον χαρακτηρισμό και μετά πάτα τη λέξη στην οποία αναφέρεται («στο …»)`, word: it.grc, hl: it.w, options: shuffle([it.answer[0], ...wrong], r), answer: it.answer[0], words: toks, head, dep: it.dep, explain: roleExplain(it) };
   }
 
   // clauses (Γ4β): six boxes as the Εγχειρίδιο template, scored 1+1+1+1+1+2
@@ -917,6 +949,7 @@ const Engine = (() => {
     if (guessable) { const g = qGuess(ix, guessable, r); if (g) steps.push(g); }
 
     const practice = [];
+    let textN = 0;
     for (const it of its) {
       if (it.kind === "rule") {
         steps.push(qIntro(it));
@@ -927,7 +960,13 @@ const Engine = (() => {
       // a headword she already met in an earlier unit is not re-taught: one retrieval question instead of the card
       if (it.kind === "word" && ix.isDup(it) && s.items[canon(it.id)]) { steps.push(qWordMeaning(ix, it, r, { label: L.review })); practice.push(...qPractice(ix, it, r)); continue; }
       steps.push(qIntro(it));
-      const chk = qCheck(ix, it, r);
+      let chk = qCheck(ix, it, r);
+      // reference-text sentences: every second card is checked the way Θέμα Α1/Β3 asks (Σ/Λ, anaphora, note, find)
+      // instead of one more translation build, so a text lesson is not «card, tiles, card, tiles» six times over
+      if (it.kind === "sentence" && it.unit_ref && textN++ % 2 === 1) {
+        const alt = qSentenceTf(ix, it, r, 0) || qAnaphora(ix, it, r, 0) || qSentenceNote(ix, it, r, 0) || qFind(ix, it, r);
+        if (alt) { practice.push(chk); chk = alt; }
+      }
       if (chk) steps.push(chk);
       practice.push(...qPractice(ix, it, r));
     }

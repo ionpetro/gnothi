@@ -66,7 +66,8 @@
       ? '<path d="M60 70q5 7 10 0z" fill="var(--m-beak)"/><path d="M62 70q3 4 6 0z" fill="var(--m-ink)" opacity="0.5"/>'
       : '<path d="M60 68l5 8 5-8z" fill="var(--m-beak)"/>';
     // feather tufts («ears») and a V brow: the cues that read «owl», not «cat»
-    const tufts = sad ? '<path d="M38 36 30 16l18 16z" fill="var(--m-fur-dark)"/><path d="M92 36l8-20-18 16z" fill="var(--m-fur-dark)"/>' : '<path d="M38 36 28 8l20 22z" fill="var(--m-fur-dark)"/><path d="M92 36l10-28-20 22z" fill="var(--m-fur-dark)"/>';
+    // the tufts' bases sit inside the head outline (drooping when sad, perked when not), so they never float
+    const tufts = sad ? '<path d="M37 50 30 22l22 14z" fill="var(--m-fur-dark)"/><path d="M93 50l7-28-22 14z" fill="var(--m-fur-dark)"/>' : '<path d="M37 50 27 10l26 24z" fill="var(--m-fur-dark)"/><path d="M93 50l10-40-26 24z" fill="var(--m-fur-dark)"/>';
     const wings = mood === "cheer"
       ? '<path d="M28 76q-14-10-10-30" stroke="var(--m-fur-dark)" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M102 76q14-10 10-30" stroke="var(--m-fur-dark)" stroke-width="10" stroke-linecap="round" fill="none"/>'
       : '<path d="M30 70q-8 18 4 32" stroke="var(--m-fur-dark)" stroke-width="10" stroke-linecap="round" fill="none"/><path d="M100 70q8 18-4 32" stroke="var(--m-fur-dark)" stroke-width="10" stroke-linecap="round" fill="none"/>';
@@ -578,7 +579,7 @@
     } else if (k === "trap") {
       inner = `<div class="qlabel">Παγίδα</div><p class="prompt">${esc(it.ask)}</p><div class="answerbox grc"><span class="struck">${esc(it.wrong)}</span> → ${esc(it.right)}</div><p class="story">${esc(it.why)}</p>${examPills}`;
     }
-    shell(`<div class="intro">${inner}${it.say && k !== "rule" ? `<p class="muted" style="font-weight:800">Σε μια ανάσα: ${esc(it.say)}</p>` : ""}</div>`, footerBtn("Το 'πιασα"));
+    shell(`<div class="intro">${inner}${it.say && k !== "rule" ? `<p class="muted" style="font-weight:800">Σε μια ανάσα: ${esc(it.say)}</p>` : ""}</div>`, footerBtn("Το ’πιασα"));
     $("#next").addEventListener("click", advance);
     $("#next").focus();
   }
@@ -693,7 +694,7 @@
 
   // ---------- bucket (sort one by one) ----------
   function drawBucket(q) {
-    let i = 0, bad = false, busy = false;
+    let i = 0, bad = false, busy = false; const wrongs = [];
     const inner = `${header(q)}<p class="prompt" style="font-size:18px">${esc(q.prompt)}</p><div class="bucketcard" id="bcard"></div><div class="buckets" id="buckets">${q.buckets.map((b, k) => `<button class="bucketbtn" data-b="${k}"><span class="k">${k + 1}</span>${esc(b)}</button>`).join("")}</div><div class="bcount" id="bcount"></div>`;
     shell(inner, "");
     const card = $("#bcard"), count = $("#bcount");
@@ -703,8 +704,12 @@
       busy = true;
       const good = q.buckets[+b.dataset.b] === q.items[i].bucket;
       card.classList.add(good ? "ok" : "bad");
-      if (good) sfx.right(); else { sfx.wrong(); bad = true; }
-      setTimeout(() => { i += 1; if (i >= q.items.length) { run.answered = true; resolve(q, !bad, bad ? "Κάποια πήγαν σε λάθος κουτί." : null); } else show(); }, 420);
+      if (good) sfx.right(); else { sfx.wrong(); bad = true; wrongs.push(q.items[i]); }
+      // the feedback names each item that went wrong and its right box, so the miss teaches something
+      const base = q.baseExplain != null ? q.baseExplain : q.explain || "";
+      const quote = (t) => (/^[«"]/.test(t) ? t : `«${t}»`);
+      const fixed = wrongs.length ? `${wrongs.map((w) => `${quote(w.text)} → ${w.bucket}`).join(" · ")}. ${base}`.trim() : base;
+      setTimeout(() => { i += 1; if (i >= q.items.length) { run.answered = true; resolve({ ...q, baseExplain: base, explain: fixed }, !bad, bad ? "Κάποια πήγαν σε λάθος κουτί." : null); } else show(); }, 420);
     }));
     show();
   }
@@ -1043,11 +1048,11 @@
     syncProgress();
     const acc = run.scored ? Math.round((run.right / run.scored) * 100) : 100;
     const secs = Math.round((Date.now() - run.start) / 1000);
-    sfx.done(); if (perfect || fresh.length || run.mode === "mock") confetti();
+    sfx.done(); if (perfect || fresh.length || (run.mode === "mock" && acc >= 50)) confetti(); // no confetti for a mock below 50 %
     const streakLine = !wasActive && st.streakUp ? (st.usedFreeze ? `Μια ἐκεχειρία έσωσε το σερί. ${plural(S.streak, "μέρα", "μέρες")}!` : S.streak > 1 ? `Σερί ${plural(S.streak, "ημέρας", "ημερών")}!` : "Μέρα 1 του σερί. Τα λέμε αύριο.") : `Σερί: ${plural(S.streak, "μέρα", "μέρες")}.`;
     const bars = run.mode === "mock" || run.mode === "daily" ? `<div class="secbars">${Object.entries(sections).map(([sec, [g, m]]) => `<div class="secbar"><span>${esc(sec)}</span><div class="bar"><i style="width:${m ? (g / m) * 100 : 0}%"></i></div><span class="tnum">${Math.round(g * 10) / 10}/${Math.round(m * 10) / 10}</span></div>`).join("")}</div>` : "";
     shell(`<div class="results">
-      ${mascot("cheer")}
+      ${mascot(perfect && run.scored ? "laurel" : acc >= 50 ? "cheer" : "happy")}
       <h1>${perfect && run.scored ? "Ἀναμάρτητος!" : acc < 50 ? pick(["Ἀρχὴ ἥμισυ παντός.", "Τα λάθη μαθαίνονται πρώτα.", "Ξανά, με το Τετράδιο λαθών."]) : pick(["Εὖγε!", "Μάθημα τέλος!", "Γνῶθι σαυτόν."])}</h1>
       <div class="resgrid">
         <div class="res gold"><div class="h">Οβολοί</div><div class="v">+${gained}</div></div>

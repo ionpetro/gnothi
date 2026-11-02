@@ -149,9 +149,42 @@ test("first lesson of every unit is open, the rest unlock in order, roundup last
 test("lessons are split into sittings by weight and every item is served once", () => {
   for (const l of IX.lessons) {
     const sittings = E.lessonSittings(IX, l.id);
-    assert.deepEqual(sittings.flat(), l.items.map((i) => i.id));
+    assert.deepEqual([...sittings.flat()].sort(), l.items.map((i) => i.id).sort());
     for (const sit of sittings) assert.ok(sit.length >= 1);
+    // non-rule items keep the author's order; rules keep theirs
+    const served = sittings.flat();
+    const kinds = (pred) => l.items.filter(pred).map((i) => i.id);
+    assert.deepEqual(served.filter((id) => IX.items.get(id).kind !== "rule"), kinds((i) => i.kind !== "rule"));
+    assert.deepEqual(served.filter((id) => IX.items.get(id).kind === "rule"), kinds((i) => i.kind === "rule"));
   }
+});
+
+test("a wall of three or more rule cards is spread over the items that follow it", () => {
+  // walls: runs of 3+ rules, each with the number of non-rule items that follow it before the next rule
+  const walls = (items) => {
+    const out = [];
+    for (let i = 0; i < items.length;) {
+      if (items[i].kind !== "rule") { i += 1; continue; }
+      let j = i; while (j < items.length && items[j].kind === "rule") j += 1;
+      let k = j; while (k < items.length && items[k].kind !== "rule") k += 1;
+      if (j - i >= 3) out.push({ rules: j - i, others: k - j });
+      i = k;
+    }
+    return out;
+  };
+  let checked = 0;
+  for (const l of IX.lessons) {
+    const w = walls(l.items);
+    // a trailing block of mini-exam rules with nothing to spread over (u11l6) is left as the author wrote it
+    if (!w.length || w.some((x) => x.others < x.rules)) continue;
+    checked += 1;
+    const served = E.lessonSittings(IX, l.id).flat().map((id) => IX.items.get(id).kind);
+    let run = 0, longest = 0;
+    for (const k of served) { run = k === "rule" ? run + 1 : 0; longest = Math.max(longest, run); }
+    assert.ok(longest <= 1, `${l.id}: ${longest} rule cards in a row after spreading`);
+    for (const sit of E.lessonSittings(IX, l.id)) assert.ok(sit.some((id) => IX.items.get(id).kind !== "rule"), `${l.id}: a sitting made only of rules`);
+  }
+  assert.ok(checked >= 10, `only ${checked} lessons with a rule wall were checked`);
 });
 
 test("countdown counts days to Monday 31 May 2027 and names the phase", () => {

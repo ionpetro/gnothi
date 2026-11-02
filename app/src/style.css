@@ -258,6 +258,7 @@ body.run-open { overflow: hidden; } /* the page behind a run must not scroll und
 .match > * { min-width: 0; }
 .mcol { display: grid; gap: 10px; align-content: start; }
 .mbtn { min-height: 58px; padding: 10px; border-radius: 14px; border: 2px solid var(--line); background: var(--surface); box-shadow: 0 3px 0 var(--line); font-weight: 800; font-size: 15px; line-height: 1.2; cursor: pointer; overflow-wrap: anywhere; }
+.mbtn.grc { font-family: var(--font-grc); font-size: 19px; font-weight: 700; } /* a Greek right-hand column keeps the left column's weight */
 .mbtn.left { font-family: var(--font-grc); font-size: 20px; font-weight: 700; }
 .mbtn.sel { border-color: var(--brand); background: var(--brand-soft); box-shadow: 0 3px 0 var(--brand); }
 .mbtn.ok { border-color: var(--olive); background: var(--olive-soft); color: var(--olive-deep); opacity: 0.45; box-shadow: none; cursor: default; }

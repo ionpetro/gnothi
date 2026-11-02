@@ -2,6 +2,8 @@
 
 *Γνῶθι σαυτόν. Γνῶθι το 20.*
 
+**Live:** _not deployed yet_ (planned: a Vercel project `gnothi-greek`; deploy with `npm run build && cd app/vercel && vercel deploy --prod`)
+
 **Open source** under the [MIT license](LICENSE). Free, and it will always be free. No account, no ads. The only thing we do is measure how it's used with [PostHog](https://posthog.com) (anonymous; session recordings hide anything typed) so we can make it better. Corrections to the Greek are very welcome: open an issue or a pull request.
 
 **English in brief.** Gnothi is a playful, Duolingo-style web app that teaches Ancient Greek to a Greek Γ΄ Λυκείου student sitting the Panhellenic exams (Αρχαία Ελληνικά, Ομάδα Προσανατολισμού Ανθρωπιστικών Σπουδών, Monday 31 May 2027). It is the sibling of [Carpe](https://github.com/ionpetro/carpe) (Latin) and [Skepsis](https://github.com/ionpetro/skepsis) and keeps their tricks: guess-first openers, build-from-tiles, match pairs, yes/no sorting, spaced review, streaks with freezes and no hearts, badges, a speed round, a mascot with moods, exam-style prompts phrased exactly as the committee phrases them. The UI and every explanation are in modern Greek with the terminology Greek schools use; the Ancient Greek is polytonic as the school books print it and follows Οικονόμου's grammar and Μουμτζάκης's syntax. Plain JavaScript, no framework, one HTML file. Run `npm test && npm run build`, then serve `app/vercel/`. The rest of this file is in Greek, for the people who will use and extend it.
@@ -37,7 +39,7 @@
 - **Τετράδιο λαθών**: ό,τι έχασες δύο φορές, με τα χειρότερα πρώτα.
 - **Σερί**: τα Σαββατοκύριακα δεν το σπάνε, μία ἐκεχειρία την εβδομάδα και μία κάθε 7 μέρες σερί (έως 2). Χωρίς καρδιές, χωρίς τιμωρίες. Η αρχική οθόνη λέει ειλικρινά ότι οι μισοί υποψήφιοι γράφουν κάτω από 10: το 10 είναι η πρώτη νίκη.
 
-Η ημερομηνία εξέτασης (Δευτέρα 31 Μαΐου 2027, 08:30) προέρχεται από αναδημοσιεύσεις του προγράμματος του υπουργείου και αλλάζει από τις ρυθμίσεις· επιβεβαίωσέ την τον Μάρτιο.
+Η ημερομηνία εξέτασης (Δευτέρα 31 Μαΐου 2027, 08:30) προέρχεται από το πρόγραμμα του υπουργείου (ανακοίνωση 11.09.2026) όπως το αναδημοσίευσαν πολλά μέσα (Ναυτεμπορική, eisakteoi.gr, φροντιστήρια)· δεν βρέθηκε το πρωτότυπο PDF. Αλλάζει από τις ρυθμίσεις· επιβεβαίωσέ την τον Μάρτιο.
 
 ## Πώς τρέχει
 
@@ -80,3 +82,13 @@ research/                    η έρευνα πίσω από το περιεχό
 Όλα στο `research/` (η έρευνα έγινε 2026-11-02· τα αρχεία λένε τι διαβάστηκε ολόκληρο και τι όχι): `syllabus.md` (εξεταστέα ύλη 2027, μορφή και ημερομηνία εξέτασης), `pastpapers.md` (θέματα 2021-2026 και παλαιότερα), `texts.md` + `texts.jsonl` (τα 19 κείμενα αναφοράς), `vocab.md` + `vocab.jsonl` (το λεξιλόγιο του αδιδάκτου με συχνότητες), `morphology.md`, `syntax.md`, `interpretation.md` + `cognates.jsonl`, `traps.md`, `CURRICULUM.md`. Τα σχολικά βιβλία σε κείμενο (`source-data/`), τα ακατέργαστα θέματα (`pastpapers-raw/`) και τα επίσημα έγγραφα (`official-*.txt`) μένουν εκτός git: πνευματικά δικαιώματα ΙΤΥΕ «Διόφαντος». Γι' αυτό και η εφαρμογή διδάσκει τα αρχαία κείμενα (κοινό κτήμα) με δικές της μεταφράσεις και σχόλια.
 
 Άδεια MIT για τον κώδικα. Το περιεχόμενο παραπέμπει στα σχολικά βιβλία, δεν τα αναπαράγει.
+
+## Τι μένει ανοιχτό
+
+- **Φιλολογικός έλεγχος.** 43 κάρτες είναι «προς έλεγχο» (`status: "unsure"`, φαίνονται στο Λεξικό με κόκκινη ετικέτα): κυρίως κλειδιά επαναληπτικών εξετάσεων που δεν διαβάστηκαν (Σεπτ. 2021-2026 Β4), το ζεύγος βούλεται ↔ βούληση/βουλευτής (Σεπτ. 2026), οι βαθμοί του πρῶτον (Σεπτ. 2023), η προστακτική τεθνάναι → τεθνηκὼς ἴσθι / τέθναθι (2021), ο παρακείμενος ἦχα / ἀγήοχα. Ένας φιλόλογος τα κλείνει σε ένα απόγευμα: `node app/tools/validate.js` τα απαριθμεί.
+- **Οι ερμηνευτικές απαντήσεις (Β1, Β2, Γ2) είναι δικές μας.** Δεν υπάρχει επίσημο κλειδί· οι αλυσίδες και οι λίστες σημείων γράφτηκαν με βάση τα θέματα και τις ανεπίσημες λύσεις. Το Gnothi βαθμολογεί τη δομή (θέση → παράθεμα → ερμηνεία → σύνδεση → συμπέρασμα), όχι την ελεύθερη γραφή· η μαθήτρια πρέπει να γράφει και στο χαρτί.
+- **Δεν υπάρχει «μεγάλο διαγώνισμα»** (ολόκληρο θέμα 3 ωρών με χρονόμετρο)· μόνο το μικρό των 25 λεπτών. Σχεδιασμός στο `research/CURRICULUM.md`.
+- **Πληκτρολόγηση πολυτονικού στο κινητό.** Η σειρά με τα σημάδια (´ ` ῀ ᾿ ῾ ι ¨) δουλεύει, αλλά δεν δοκιμάστηκε με πραγματικό ελληνικό πληκτρολόγιο iOS/Android· υπάρχει πάντα το «Δείξε μου πλακίδια».
+- **Το Στάδιο** βάζει και ερωτήσεις Γ4 με μακριές επιλογές· σε 20 δευτερόλεπτα είναι δύσκολες. Ίσως να μείνει στις λέξεις, τους τύπους και την Εισαγωγή.
+- **Analytics:** το PostHog φορτώνει μόνο με `POSTHOG_KEY` στο `app/.env`· δεν έχει ρυθμιστεί ακόμη project.
+- **Deploy:** δεν έχει ανέβει στο Vercel.
