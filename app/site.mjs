@@ -8,6 +8,16 @@ const { loadUnits } = require("./src/course.js");
 
 export const SITE = "https://gnothi-greek.vercel.app";
 export const REPO = "https://github.com/ionpetro/gnothi";
+
+// The family of free, open-source learning apps. Keep this list the same in Skepsis, Carpe, Gnothi and Objection (app.js and site.mjs).
+const FAMILY = [
+  { id: "skepsis", name: "Skepsis", url: "https://skepsis-greek.vercel.app", repo: "https://github.com/ionpetro/skepsis", en: "the Greek hiding in everyday English", el: "οι ελληνικές ρίζες που κρύβονται στα αγγλικά" },
+  { id: "carpe", name: "Carpe", url: "https://carpe-latin.vercel.app", repo: "https://github.com/ionpetro/carpe", en: "Latin for Greece's national exams", el: "Λατινικά για τις Πανελλαδικές" },
+  { id: "gnothi", name: "Gnothi", url: "https://gnothi-greek.vercel.app", repo: "https://github.com/ionpetro/gnothi", en: "Ancient Greek for Greece's national exams", el: "Αρχαία Ελληνικά για τις Πανελλαδικές" },
+  { id: "objection", name: "Objection", url: "https://objection-bar.vercel.app", repo: "https://github.com/ionpetro/objection", en: "prep for the US bar exam", el: "προετοιμασία για τις εξετάσεις δικηγόρων των ΗΠΑ" },
+];
+const SISTERS = FAMILY.filter((a) => a.id !== "gnothi");
+const sisterHref = (a) => `${a.url}/?utm_source=gnothi&amp;utm_medium=sister_link`;
 // PostHog (optional): set POSTHOG_KEY in app/.env. Without it no analytics code ships at all.
 const POSTHOG_KEY = process.env.POSTHOG_KEY || "";
 const POSTHOG_HOST = process.env.POSTHOG_HOST || "https://us.i.posthog.com";
@@ -59,7 +69,7 @@ table{width:100%;border-collapse:collapse;font-size:15px}td,th{padding:8px 6px;b
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}footer a{font-weight:700}`;
 
 const nav = () => `<nav class="top" aria-label="Ιστότοπος"><a class="brand" href="/">Γνῶθι</a><a href="/lexiko">Λεξικό</a><a href="/about">Τι είναι</a><a href="${REPO}">GitHub</a></nav>`;
-const foot = () => `<footer><p>${NAME}: ${TAGLINE} Οι τύποι ελέγχονται στη Γραμματική της Αρχαίας Ελληνικής (Οικονόμου), στο Συντακτικό (Μουμτζάκης) και στον Φάκελο Υλικού. Τα αρχαία κείμενα είναι κοινό κτήμα· οι μεταφράσεις και τα σχόλια είναι δικά μας, όχι του σχολικού βιβλίου (© ΙΤΥΕ «Διόφαντος»). Το ${NAME} είναι δωρεάν και θα μείνει πάντα δωρεάν· ο κώδικας είναι ανοιχτός (MIT): <a href="${REPO}">GitHub</a>. Το μόνο που κάνουμε είναι να μετράμε με το PostHog πώς χρησιμοποιείται, για να το βελτιώνουμε. Χωρίς λογαριασμό, χωρίς διαφημίσεις.</p></footer>`;
+const foot = () => `<footer><p>${NAME}: ${TAGLINE} Οι τύποι ελέγχονται στη Γραμματική της Αρχαίας Ελληνικής (Οικονόμου), στο Συντακτικό (Μουμτζάκης) και στον Φάκελο Υλικού. Τα αρχαία κείμενα είναι κοινό κτήμα· οι μεταφράσεις και τα σχόλια είναι δικά μας, όχι του σχολικού βιβλίου (© ΙΤΥΕ «Διόφαντος»). Το ${NAME} είναι δωρεάν και θα μείνει πάντα δωρεάν· ο κώδικας είναι ανοιχτός (MIT): <a href="${REPO}">GitHub</a>. Το μόνο που κάνουμε είναι να μετράμε με το PostHog πώς χρησιμοποιείται, για να το βελτιώνουμε. Χωρίς λογαριασμό, χωρίς διαφημίσεις. <a href="${REPO}">GitHub</a> (ένα αστέρι βοηθά κι άλλους να το βρουν). Κι άλλες δωρεάν εφαρμογές ανοιχτού κώδικα σαν αυτή: ${SISTERS.map((a) => `<a href="${sisterHref(a)}">${a.name}</a> (${a.el})`).join(" · ")}</p></footer>`;
 const page = ({ title, desc, path, body, jsonld, type }) => `<!doctype html><html lang="el"><head>${head({ title, desc, path, jsonld, type })}<style>${PAGE_CSS}</style></head><body><div class="wrap">${nav()}${body}${foot()}</div></body></html>`;
 
 /** Every word, with its unit and lesson, for the lexicon page. */
@@ -93,6 +103,7 @@ function aboutPage(units) {
       <li><b>Χωρίς τιμωρία.</b> Ούτε καρδιές ούτε ζωές. Τα Σαββατοκύριακα δεν σπάνε το σερί.</li></ul>
     <h2>Ακρίβεια</h2><p>Κάθε κάρτα δηλώνει πού ελέγχθηκε: στη Γραμματική Οικονόμου, στο Συντακτικό Μουμτζάκη, στον Φάκελο Υλικού ή σε θέμα και κλειδί Πανελλαδικών (με τη χρονιά). Όσα δεν έχουν ελεγχθεί σημειώνονται «προς έλεγχο». Δεν λέμε «πιθανότητες»: λέμε μόνο τι ζητήθηκε στα διαγωνίσματα 2021-2026.</p>
     <h2>Δωρεάν, ανοιχτό, και τι μετράμε</h2><p>Το ${NAME} είναι δωρεάν και θα μείνει πάντα δωρεάν. Ο κώδικας είναι ανοιχτός με άδεια MIT: <a href="${REPO}">${REPO.replace("https://", "")}</a>. Χωρίς λογαριασμό, χωρίς διαφημίσεις. Το μόνο που κάνουμε είναι να μετράμε ανώνυμα με το <a href="https://posthog.com">PostHog</a> πώς χρησιμοποιείται η εφαρμογή (ποια μαθήματα ξεκινάς και τελειώνεις, πού δυσκολεύεσαι) και να βλέπουμε καταγραφές συνεδριών όπου ό,τι πληκτρολογείς είναι κρυμμένο. Έτσι βρίσκουμε τι να διορθώσουμε. Η πρόοδός σου μένει στον περιηγητή σου.</p>
+    <h2>Η οικογένεια</h2><p>${NAME} είναι μία από τέσσερις δωρεάν εφαρμογές ανοιχτού κώδικα, η καθεμία ένα σύντομο καθημερινό παιχνίδι:</p><ul>${FAMILY.map((a) => `<li>${a.id === "gnothi" ? `<b>${a.name}</b>` : `<a href="${sisterHref(a)}">${a.name}</a>`}: ${a.el} (<a href="${a.repo}">κώδικας</a>)</li>`).join("")}</ul><p>Αν κάποια σε βοηθά, ένα αστέρι στο GitHub βοηθά κι άλλους να τη βρουν.</p>
     <a class="cta" href="/">Ξεκίνα</a>`;
   return page({ title: `Τι είναι το ${NAME}`, desc: DESC, path: "/about", body, jsonld: [{ "@context": "https://schema.org", "@type": "AboutPage", name: `Τι είναι το ${NAME}`, inLanguage: "el", url: `${SITE}/about` }] });
 }
@@ -108,7 +119,7 @@ function appPage(appMarkup, units) {
   const app = appMarkup.replace(/<title>[^<]*<\/title>\s*/, "").replace(/<meta (charset|name="(description|viewport)")[^>]*>\s*/g, "").replace(/<link rel="(preconnect|stylesheet)"[^>]*>\s*/g, "");
   const words = lexicon(units).length;
   const fallback = `<noscript><div style="max-width:640px;margin:24px auto;padding:0 16px;font-family:system-ui"><h1>${NAME}: ${TAGLINE}</h1><p>${esc(DESC)}</p><p><a href="/lexiko">Λεξικό (${words} λέξεις)</a> · <a href="/about">Τι είναι</a></p></div></noscript>`;
-  const footer = `<footer class="site-foot" aria-label="Περισσότερα"><a href="/lexiko">Λεξικό</a><a href="/about">Τι είναι το Gnothi</a><a href="${REPO}">Δωρεάν για πάντα · ανοιχτός κώδικας στο GitHub</a></footer>`;
+  const footer = `<footer class="site-foot" aria-label="Περισσότερα"><a href="/lexiko">Λεξικό</a><a href="/about">Τι είναι το Gnothi</a><a href="${REPO}">Δωρεάν για πάντα · ανοιχτός κώδικας στο GitHub</a>${SISTERS.map((a) => `<a href="${sisterHref(a)}">Αδελφή εφαρμογή: ${a.name}</a>`).join("")}</footer>`;
   return `<!doctype html><html lang="el"><head>${head({ title: `${NAME}: Αρχαία Ελληνικά για τις Πανελλαδικές, 4 λεπτά τη μέρα`, desc: DESC, path: "/", jsonld })}
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}[hidden]{display:none!important}img{max-width:100%}
 .site-foot{max-width:560px;margin:-8px auto 0;display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:center;font:700 13px/1.4 Nunito,system-ui,sans-serif;padding:0 max(16px,env(safe-area-inset-right,0px)) calc(96px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px))}
