@@ -244,11 +244,13 @@
   function topbar() {
     const t = today(), st = E.liveStreak(S, t), active = S.lastDay === t;
     return `<header class="topbar">
+      <div class="topbar-main">
       <div class="wordmark">Γνῶθι<small>ΓΝΩΘΙ ΤΟ 20</small></div>
       <div class="stats">
         <span class="stat flame ${active ? "" : "cold"}" title="${active ? "Το σερί είναι ασφαλές για σήμερα" : "Κάνε ένα μάθημα για να κρατήσεις το σερί"}">${I.flame}<span>${st}</span></span>
         <span class="stat" title="Ἐκεχειρίαι (άδειες σερί)" style="color:var(--brand)">${I.truce}<span>${S.freezes}</span></span>
         <span class="stat xp" title="Οβολοί">${I.coin}<span>${S.xp}</span></span>
+      </div>
       </div>
       ${ghLink("gh", "topbar", `${I.github}<span class="gh-label">${I.star}<span class="gh-text">Star</span></span>`, "Βάλε αστέρι στο Gnothi στο GitHub")}
     </header>`;
