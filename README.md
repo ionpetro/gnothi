@@ -14,12 +14,14 @@
 
 Το Gnothi είναι δωρεάν και ανοιχτού κώδικα (MIT). **Αν σε βοηθά, [δώσε του ένα αστέρι στο GitHub](https://github.com/ionpetro/gnothi)**: ένα αστέρι βοηθά κι άλλους να το βρουν. Διορθώσεις και pull requests είναι ευπρόσδεκτα.
 
-Το Gnothi είναι μία από τέσσερις δωρεάν εφαρμογές ανοιχτού κώδικα, φτιαγμένες με τον ίδιο τρόπο (σύντομα καθημερινά μαθήματα, επανάληψη σε διαστήματα, χωρίς λογαριασμό):
+Το Gnothi είναι μία από έξι δωρεάν εφαρμογές ανοιχτού κώδικα, φτιαγμένες με τον ίδιο τρόπο (σύντομα καθημερινά μαθήματα, επανάληψη σε διαστήματα, χωρίς λογαριασμό):
 
 - **Skepsis**: οι ελληνικές ρίζες που κρύβονται στα αγγλικά. [Παίξε](https://skepsis-greek.vercel.app) · [GitHub](https://github.com/ionpetro/skepsis)
 - **Carpe**: Λατινικά για τις Πανελλαδικές. [Παίξε](https://carpe-latin.vercel.app) · [GitHub](https://github.com/ionpetro/carpe)
 - **Gnothi** (αυτή εδώ): Αρχαία Ελληνικά για τις Πανελλαδικές. [Παίξε](https://gnothi-greek.vercel.app) · [GitHub](https://github.com/ionpetro/gnothi)
 - **Objection**: προετοιμασία για τις εξετάσεις δικηγόρων των ΗΠΑ. [Παίξε](https://objection-bar.vercel.app) · [GitHub](https://github.com/ionpetro/objection)
+- **Agora**: πωλήσεις και διαπραγμάτευση, με ηθική. [Παίξε](https://agora-sales.vercel.app) · [GitHub](https://github.com/ionpetro/agora)
+- **Oikos**: οικονομικά και κίνητρα. [Παίξε](https://oikos-azure-five.vercel.app) · [GitHub](https://github.com/ionpetro/oikos)
 
 ## Τι είναι
 

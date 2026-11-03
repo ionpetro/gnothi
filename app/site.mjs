@@ -9,12 +9,14 @@ const { loadUnits } = require("./src/course.js");
 export const SITE = "https://gnothi-greek.vercel.app";
 export const REPO = "https://github.com/ionpetro/gnothi";
 
-// The family of free, open-source learning apps. Keep this list the same in Skepsis, Carpe, Gnothi and Objection (app.js and site.mjs).
+// The family of free, open-source learning apps. Keep this list the same in Skepsis, Carpe, Gnothi, Objection, Agora and Oikos (app.js and site.mjs).
 const FAMILY = [
   { id: "skepsis", name: "Skepsis", url: "https://skepsis-greek.vercel.app", repo: "https://github.com/ionpetro/skepsis", en: "the Greek hiding in everyday English", el: "οι ελληνικές ρίζες που κρύβονται στα αγγλικά" },
   { id: "carpe", name: "Carpe", url: "https://carpe-latin.vercel.app", repo: "https://github.com/ionpetro/carpe", en: "Latin for Greece's national exams", el: "Λατινικά για τις Πανελλαδικές" },
   { id: "gnothi", name: "Gnothi", url: "https://gnothi-greek.vercel.app", repo: "https://github.com/ionpetro/gnothi", en: "Ancient Greek for Greece's national exams", el: "Αρχαία Ελληνικά για τις Πανελλαδικές" },
   { id: "objection", name: "Objection", url: "https://objection-bar.vercel.app", repo: "https://github.com/ionpetro/objection", en: "prep for the US bar exam", el: "προετοιμασία για τις εξετάσεις δικηγόρων των ΗΠΑ" },
+  { id: "agora", name: "Agora", url: "https://agora-sales.vercel.app", repo: "https://github.com/ionpetro/agora", en: "sales and negotiation, with ethics", el: "πωλήσεις και διαπραγμάτευση, με ηθική" },
+  { id: "oikos", name: "Oikos", url: "https://oikos-azure-five.vercel.app", repo: "https://github.com/ionpetro/oikos", en: "economics and incentives", el: "οικονομικά και κίνητρα" },
 ];
 const SISTERS = FAMILY.filter((a) => a.id !== "gnothi");
 const sisterHref = (a) => `${a.url}/?utm_source=gnothi&amp;utm_medium=sister_link`;
@@ -103,7 +105,7 @@ function aboutPage(units) {
       <li><b>Χωρίς τιμωρία.</b> Ούτε καρδιές ούτε ζωές. Τα Σαββατοκύριακα δεν σπάνε το σερί.</li></ul>
     <h2>Ακρίβεια</h2><p>Κάθε κάρτα δηλώνει πού ελέγχθηκε: στη Γραμματική Οικονόμου, στο Συντακτικό Μουμτζάκη, στον Φάκελο Υλικού ή σε θέμα και κλειδί Πανελλαδικών (με τη χρονιά). Όσα δεν έχουν ελεγχθεί σημειώνονται «προς έλεγχο». Δεν λέμε «πιθανότητες»: λέμε μόνο τι ζητήθηκε στα διαγωνίσματα 2021-2026.</p>
     <h2>Δωρεάν, ανοιχτό, και τι μετράμε</h2><p>Το ${NAME} είναι δωρεάν και θα μείνει πάντα δωρεάν. Ο κώδικας είναι ανοιχτός με άδεια MIT: <a href="${REPO}">${REPO.replace("https://", "")}</a>. Χωρίς λογαριασμό, χωρίς διαφημίσεις. Το μόνο που κάνουμε είναι να μετράμε ανώνυμα με το <a href="https://posthog.com">PostHog</a> πώς χρησιμοποιείται η εφαρμογή (ποια μαθήματα ξεκινάς και τελειώνεις, πού δυσκολεύεσαι) και να βλέπουμε καταγραφές συνεδριών όπου ό,τι πληκτρολογείς είναι κρυμμένο. Έτσι βρίσκουμε τι να διορθώσουμε. Η πρόοδός σου μένει στον περιηγητή σου.</p>
-    <h2>Η οικογένεια</h2><p>${NAME} είναι μία από τέσσερις δωρεάν εφαρμογές ανοιχτού κώδικα, η καθεμία ένα σύντομο καθημερινό παιχνίδι:</p><ul>${FAMILY.map((a) => `<li>${a.id === "gnothi" ? `<b>${a.name}</b>` : `<a href="${sisterHref(a)}">${a.name}</a>`}: ${a.el} (<a href="${a.repo}">κώδικας</a>)</li>`).join("")}</ul><p>Αν κάποια σε βοηθά, ένα αστέρι στο GitHub βοηθά κι άλλους να τη βρουν.</p>
+    <h2>Η οικογένεια</h2><p>${NAME} είναι μία από έξι δωρεάν εφαρμογές ανοιχτού κώδικα, η καθεμία ένα σύντομο καθημερινό παιχνίδι:</p><ul>${FAMILY.map((a) => `<li>${a.id === "gnothi" ? `<b>${a.name}</b>` : `<a href="${sisterHref(a)}">${a.name}</a>`}: ${a.el} (<a href="${a.repo}">κώδικας</a>)</li>`).join("")}</ul><p>Αν κάποια σε βοηθά, ένα αστέρι στο GitHub βοηθά κι άλλους να τη βρουν.</p>
     <a class="cta" href="/">Ξεκίνα</a>`;
   return page({ title: `Τι είναι το ${NAME}`, desc: DESC, path: "/about", body, jsonld: [{ "@context": "https://schema.org", "@type": "AboutPage", name: `Τι είναι το ${NAME}`, inLanguage: "el", url: `${SITE}/about` }] });
 }
