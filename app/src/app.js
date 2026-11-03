@@ -33,7 +33,7 @@
   const sisterNote = () => `<p class="sister">Κι άλλες δωρεάν εφαρμογές ανοιχτού κώδικα σαν αυτή: ${sisterLinks()}</p>`;
   const REPO = "https://github.com/ionpetro/gnothi";
   /** Link to the open source code. `where` says which button was clicked, for analytics. */
-  const ghLink = (cls, where, inner) => `<a class="${cls}" href="${REPO}" target="_blank" rel="noopener" data-gh="${where}" aria-label="Ο κώδικας του Gnothi στο GitHub">${inner}</a>`;
+  const ghLink = (cls, where, inner, label) => `<a class="${cls}" href="${REPO}" target="_blank" rel="noopener" data-gh="${where}" aria-label="${label || "Ο κώδικας του Gnothi στο GitHub"}" title="${label || "Ο κώδικας του Gnothi στο GitHub"}">${inner}</a>`;
   /** The promise shown on every main screen: free forever, open code, and the one thing we track. */
   const FREE_NOTE = "Το Gnothi είναι δωρεάν και θα μείνει πάντα δωρεάν. Ο κώδικας είναι ανοιχτός (MIT). Το μόνο που κάνουμε: μετράμε με το PostHog πώς χρησιμοποιείται, για να το κάνουμε καλύτερο. Χωρίς λογαριασμό, χωρίς διαφημίσεις.";
 
@@ -68,6 +68,7 @@
   // ---------- icons ----------
   const I = {
     github: '<svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38v-1.33c-2.23.48-2.7-1.07-2.7-1.07-.36-.92-.89-1.17-.89-1.17-.73-.5.06-.49.06-.49.8.06 1.23.83 1.23.83.72 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.65-.89-3.65-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82a7.6 7.6 0 0 1 4 0c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>',
+    star: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="m12 2.5 2.8 6.3 6.7.6-5.1 4.5 1.5 6.7L12 17.1l-5.9 3.5 1.5-6.7L2.5 9.4l6.7-.6z"/></svg>',
     flame: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2c1 3.5-1.6 5.3-2.9 7.3C7.6 11.5 7 13 7 14.6 7 18.1 9.3 21 12 21s5-2.6 5-6.2c0-2.1-.9-3.7-2-5 .1 1.6-.5 2.8-1.6 3.3.5-3.6-.6-7.6-1.4-11.1z"/></svg>',
     coin: '<svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="currentColor"/><text x="12" y="16.5" text-anchor="middle" font-family="Georgia,serif" font-size="12" font-weight="700" fill="var(--surface)">ὀ</text></svg>',
     truce: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3c-2 2-4 2.5-7 2.5V12c0 4.5 3 7.5 7 9 4-1.5 7-4.5 7-9V5.5C16 5.5 14 5 12 3z"/><path d="M9 12.5c1.5-1 4.5-1 6 0M9 9.5c1.5 1 4.5 1 6 0"/></svg>',
@@ -249,7 +250,7 @@
         <span class="stat" title="Ἐκεχειρίαι (άδειες σερί)" style="color:var(--brand)">${I.truce}<span>${S.freezes}</span></span>
         <span class="stat xp" title="Οβολοί">${I.coin}<span>${S.xp}</span></span>
       </div>
-      ${ghLink("gh", "topbar", `${I.github}<span class="gh-label">GitHub</span>`)}
+      ${ghLink("gh", "topbar", `${I.github}<span class="gh-label">${I.star}<span class="gh-text">Star</span></span>`, "Βάλε αστέρι στο Gnothi στο GitHub")}
     </header>`;
   }
   function tabbar() {
@@ -258,7 +259,7 @@
   function siteNote() { return `<footer class="sitenote">${sisterNote()}<p><b>${FREE_NOTE}</b></p>${ghLink("btn ghost gh-cta", "footer", `${I.github}<span>Αστέρι στο GitHub</span>`)}<p class="sitenote-sub">Ένα αστέρι βοηθά κι άλλους να το βρουν.</p><p>Η πρόοδος αποθηκεύεται σ' αυτή τη συσκευή. Οι τύποι ελέγχονται στη Γραμματική Οικονόμου, στο Συντακτικό Μουμτζάκη και στον Φάκελο Υλικού· όπου υπάρχει αμφιβολία, η κάρτα το λέει.</p></footer>`; }
 
   function render() {
-    if (!S.onboarded) { app().innerHTML = onboarding(); bindOnboarding(); return; }
+    if (!S.onboarded) { app().innerHTML = topbar() + onboarding(); bindOnboarding(); return; }
     const body = { learn: learnView, lex: lexView, me: meView }[ui.tab]();
     app().innerHTML = topbar() + `<main class="view">${body}${siteNote()}</main>` + tabbar();
     bindCommon();
