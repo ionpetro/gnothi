@@ -14,7 +14,7 @@
 
 Το Gnothi είναι δωρεάν και ανοιχτού κώδικα (MIT). **Αν σε βοηθά, [δώσε του ένα αστέρι στο GitHub](https://github.com/ionpetro/gnothi)**: ένα αστέρι βοηθά κι άλλους να το βρουν. Διορθώσεις και pull requests είναι ευπρόσδεκτα.
 
-Το Gnothi είναι μία από έξι δωρεάν εφαρμογές ανοιχτού κώδικα, φτιαγμένες με τον ίδιο τρόπο (σύντομα καθημερινά μαθήματα, επανάληψη σε διαστήματα, χωρίς λογαριασμό):
+Το Gnothi είναι μία από οκτώ δωρεάν εφαρμογές ανοιχτού κώδικα, φτιαγμένες με τον ίδιο τρόπο (σύντομα καθημερινά μαθήματα και επανάληψη σε διαστήματα):
 
 - **Skepsis**: οι ελληνικές ρίζες που κρύβονται στα αγγλικά. [Παίξε](https://skepsis-greek.vercel.app) · [GitHub](https://github.com/ionpetro/skepsis)
 - **Carpe**: Λατινικά για τις Πανελλαδικές. [Παίξε](https://carpe-latin.vercel.app) · [GitHub](https://github.com/ionpetro/carpe)
@@ -22,6 +22,8 @@
 - **Objection**: προετοιμασία για τις εξετάσεις δικηγόρων των ΗΠΑ. [Παίξε](https://objection-bar.vercel.app) · [GitHub](https://github.com/ionpetro/objection)
 - **Agora**: πωλήσεις και διαπραγμάτευση, με ηθική. [Παίξε](https://agora-sales-xi.vercel.app) · [GitHub](https://github.com/ionpetro/agora)
 - **Oikos**: οικονομικά και κίνητρα. [Παίξε](https://oikos-azure-five.vercel.app) · [GitHub](https://github.com/ionpetro/oikos)
+- **Guanxi**: Μανδαρινικά και τοπική κουλτούρα. [Παίξε](https://guanxi-mandarin.vercel.app) · [GitHub](https://github.com/ionpetro/guanxi)
+- **Everyday Ethics**: καθημερινές επιλογές και ηθική κρίση. [Ιδιωτική προεπισκόπηση](https://everyday-ethics-ion.wintrypenny4.chatgpt.site) · [GitHub](https://github.com/ionpetro/everyday-ethics)
 
 ## Τι είναι
 
