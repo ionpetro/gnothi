@@ -150,5 +150,5 @@ One JSON object per line. Fields:
 * Dickinson College Commentaries, Greek Core List, https://dcc.dickinson.edu/greek-core-list.
 * Secondary list of unseen authors 2000-2023, https://www.alfavita.gr/panellinies/448652_panelladikes-arhaia-ellinika-erga-poy-exetastikan-os-adidakto-keimeno-tin (not re-verified).
 """)
-open('/Users/ionpetro/Documents/jobmachine/experiments/ancient-greek-panhellenic/research/vocab.md','w',encoding='utf8').write('\n'.join(md))
+open('/Users/ionpetro/Documents/learning-apps/ancient-greek-panhellenic/research/vocab.md','w',encoding='utf8').write('\n'.join(md))
 print(len('\n'.join(md)))

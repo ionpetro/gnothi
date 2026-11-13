@@ -33,7 +33,7 @@ print(etree.tostring(r.xpath('//t:body',namespaces={'t':NS[1:-1]})[0])[:300])
 T['Lysias 16 Mantitheos (Blyk)']=divtext(r.xpath('//t:body',namespaces={'t':NS[1:-1]})[0])
 T['Epic Men 122']=T['Epic Men 122'].split('Ἃ δέ σοι συνεχῶς')[0]
 T['Pol A1 1253a7-18']=re.sub(r'Hom\. Il\. 9\.63[^ ]*','',T['Pol A1 1253a7-18'])
-prot=open('/Users/ionpetro/Documents/jobmachine/experiments/ancient-greek-panhellenic/research/pastpapers-raw/ΣΕΠΤΕΜΒΡΙΟΣ_2024__2024_09_them_arxaia_100924.txt',encoding='utf8').read()
+prot=open('/Users/ionpetro/Documents/learning-apps/ancient-greek-panhellenic/research/pastpapers-raw/ΣΕΠΤΕΜΒΡΙΟΣ_2024__2024_09_them_arxaia_100924.txt',encoding='utf8').read()
 a=prot.find('Τὰ ὑποκείμενα'); b=prot.find('Α1.α.',a)
 T['Aristotle Protrepticus 8-9 (exam text 2024S)']=re.sub(r'\s+',' ',prot[a:b])
 for k,v in T.items(): print(k,len(v.split()))

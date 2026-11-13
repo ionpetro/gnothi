@@ -67,7 +67,7 @@ for r in out:
     c[r['id']]+=1
     if c[r['id']]>1: r['id']=f"{r['id']}{c[r['id']]}"
 out.sort(key=lambda r:(r['tier'],-r['freq']['balanced_per100k']))
-with open('/Users/ionpetro/Documents/jobmachine/experiments/ancient-greek-panhellenic/research/vocab.jsonl','w',encoding='utf8') as f:
+with open('/Users/ionpetro/Documents/learning-apps/ancient-greek-panhellenic/research/vocab.jsonl','w',encoding='utf8') as f:
     for r in out: f.write(json.dumps(r,ensure_ascii=False)+'\n')
 print(len(out),collections.Counter(r['tier'] for r in out),collections.Counter(r['pos'] for r in out))
 print('uncertain',sum(r['uncertain'] for r in out), 'unattested heads',sum(1 for r in out if not r['corpus_form_attested']))
@@ -76,6 +76,6 @@ names=[]
 for ln in open('names.txt',encoding='utf8'):
     p=[x.strip() for x in ln.split(' | ')]
     names.append(dict(lemma=p[0],forms=p[1],gender={'ὁ':'m','ἡ':'f','τό':'n'}.get(p[2],p[2]),el=p[3],where=p[4]))
-with open('/Users/ionpetro/Documents/jobmachine/experiments/ancient-greek-panhellenic/research/vocab_names.jsonl','w',encoding='utf8') as f:
+with open('/Users/ionpetro/Documents/learning-apps/ancient-greek-panhellenic/research/vocab_names.jsonl','w',encoding='utf8') as f:
     for r in names: f.write(json.dumps(r,ensure_ascii=False)+'\n')
 json.dump(out,open('final_entries.json','w'),ensure_ascii=False)
