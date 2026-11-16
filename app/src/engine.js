@@ -111,7 +111,12 @@ const Engine = (() => {
       if (s.freezes < 1) s.freezes = 1;
     }
     if (s.lastDay === today) return out;
-    if (!s.lastDay || s.lastDay > today) {
+    if (s.lastDay && s.lastDay > today) {
+      // the saved day is ahead of this device's today (travel west, or the clock moved back): keep the streak
+      if (s.lastDay > addDays(today, 1)) s.lastDay = today; // more than a day ahead was a wrong clock: re-anchor
+      return out;
+    }
+    if (!s.lastDay) {
       s.streak = 1;
     } else {
       const missed = missedWeekdays(s.lastDay, today);
@@ -126,8 +131,8 @@ const Engine = (() => {
     return out;
   }
   function liveStreak(s, today) {
-    if (!s.lastDay || s.lastDay > today) return 0;
-    if (s.lastDay === today) return s.streak;
+    if (!s.lastDay) return 0;
+    if (s.lastDay >= today) return s.streak; // a saved day ahead of the device clock keeps the streak (see touchStreak)
     const missed = missedWeekdays(s.lastDay, today);
     // touchStreak refills one freeze at the start of each week, so count it here too.
     const freezes = s.freezeWeek !== weekKey(today) ? Math.max(s.freezes, 1) : s.freezes;
@@ -189,9 +194,11 @@ const Engine = (() => {
     const it = s.items[id];
     if (correct) {
       it.right += 1;
+      it.run = (it.run || 0) + 1; // right answers in a row since the last miss (the notebook lets go at 2)
       if (it.due <= today) it.box = Math.min(it.box + 1, INTERVALS.length);
     } else {
       it.wrong += 1;
+      it.run = 0;
       it.box = weight < 1 ? Math.max(1, it.box - 1) : 1;
     }
     // Early correct practice never postpones a review: only a miss, a due card or a new card is rescheduled.
@@ -205,7 +212,7 @@ const Engine = (() => {
   }
   /** Τετράδιο λαθών: items missed at least twice, worst first. */
   function notebookItems(s) {
-    return Object.entries(s.items).filter(([, v]) => v.wrong >= 2).sort((a, b) => b[1].wrong - a[1].wrong || a[1].box - b[1].box).map(([k]) => k);
+    return Object.entries(s.items).filter(([, v]) => v.wrong >= 2 && (v.run || 0) < 2).sort((a, b) => b[1].wrong - a[1].wrong || a[1].box - b[1].box).map(([k]) => k);
   }
 
   // ---------- source labels ----------
