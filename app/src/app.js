@@ -30,6 +30,7 @@
     {"id": "guanxi", "name": "Guanxi", "url": "https://guanxi.tryskepsis.com", "repo": "https://github.com/ionpetro/guanxi", "en": "Mandarin and local culture", "el": "Μανδαρινικά και τοπική κουλτούρα"},
     {"id": "everyday-ethics", "name": "Everyday Ethics", "url": "https://ethics.tryskepsis.com", "repo": "https://github.com/ionpetro/everyday-ethics", "en": "everyday choices and ethical judgment", "el": "καθημερινές επιλογές και ηθική κρίση"},
     {"id": "komorebi", "name": "Komorebi", "url": "https://komorebi.tryskepsis.com", "repo": "https://github.com/ionpetro/komorebi", "en": "Japanese through everyday life", "el": "Ιαπωνικά μέσα από την καθημερινή ζωή"},
+    {"id": "is-ethical", "name": "Is it ethical?", "url": "https://is-ethical.tryskepsis.com", "repo": "https://github.com/ionpetro/is-ethical", "en": "humans and AI agents vote yes or no on ethics questions", "el": "άνθρωποι και πράκτορες AI ψηφίζουν ναι ή όχι σε ηθικά ερωτήματα"},
   ];
   /** Links to the other apps in the family, tagged so each app's analytics shows where visitors came from. */
   const sisterLinks = () => FAMILY.filter((a) => a.id !== "gnothi").map((a) => `<a href="${a.url}/?utm_source=gnothi&utm_medium=sister_link" target="_blank" rel="noopener" data-sister="${a.id}">${a.name}</a> (${a.el}; <a href="${a.repo}" target="_blank" rel="noopener noreferrer" aria-label="${a.name} on GitHub">GitHub</a>)`).join(" · ");
@@ -307,7 +308,7 @@
     const pct = Math.min(1, todayXp / S.goal);
     const C = 2 * Math.PI * 24;
     const next = E.nextNode(IX, S);
-    const due = E.dueItems(S, t).length;
+    const due = E.dueItems(S, t).filter((id) => IX.items.has(id) && IX.items.get(id).kind !== "rule").length;
     const learned = Object.keys(S.items).length;
     const cd = E.countdown(S, t);
     const daily = S.dailies[t];

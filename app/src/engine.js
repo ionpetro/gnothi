@@ -126,10 +126,12 @@ const Engine = (() => {
     return out;
   }
   function liveStreak(s, today) {
-    if (!s.lastDay) return 0;
+    if (!s.lastDay || s.lastDay > today) return 0;
     if (s.lastDay === today) return s.streak;
     const missed = missedWeekdays(s.lastDay, today);
-    return missed <= s.freezes ? s.streak : 0;
+    // touchStreak refills one freeze at the start of each week, so count it here too.
+    const freezes = s.freezeWeek !== weekKey(today) ? Math.max(s.freezes, 1) : s.freezes;
+    return missed <= freezes ? s.streak : 0;
   }
   function addXp(s, today, n) {
     s.xp += n;
@@ -182,6 +184,7 @@ const Engine = (() => {
    */
   function grade(s, id, correct, today, { weight = 1 } = {}) {
     id = canon(id);
+    const fresh = !s.items[id], wasDue = fresh || s.items[id].due <= today;
     learn(s, id, today);
     const it = s.items[id];
     if (correct) {
@@ -191,7 +194,8 @@ const Engine = (() => {
       it.wrong += 1;
       it.box = weight < 1 ? Math.max(1, it.box - 1) : 1;
     }
-    it.due = capDue(s, addDays(today, INTERVALS[it.box - 1]), today);
+    // Early correct practice never postpones a review: only a miss, a due card or a new card is rescheduled.
+    if (!correct || wasDue) it.due = capDue(s, addDays(today, INTERVALS[it.box - 1]), today);
   }
   function dueItems(s, today) {
     return Object.entries(s.items)
