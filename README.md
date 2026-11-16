@@ -19,13 +19,13 @@
 | | Εφαρμογή | Τι είναι | Σύνδεσμοι |
 |:-:|---|---|---|
 | <img src="https://tryskepsis.com/icon-192.png" width="40" height="40" alt="Skepsis logo"> | **Skepsis** | οι ελληνικές ρίζες που κρύβονται στα αγγλικά | [Παίξε](https://tryskepsis.com) · [GitHub](https://github.com/ionpetro/skepsis) |
-| <img src="https://carpe-latin.vercel.app/icon.svg" width="40" height="40" alt="Carpe logo"> | **Carpe** | Λατινικά για τις Πανελλαδικές | [Παίξε](https://carpe-latin.vercel.app) · [GitHub](https://github.com/ionpetro/carpe) |
-| <img src="https://gnothi-greek.vercel.app/icon.svg" width="40" height="40" alt="Gnothi logo"> | **Gnothi** (αυτή εδώ) | Αρχαία Ελληνικά για τις Πανελλαδικές | [Παίξε](https://gnothi-greek.vercel.app) · [GitHub](https://github.com/ionpetro/gnothi) |
-| <img src="https://objection-bar.vercel.app/icon.svg" width="40" height="40" alt="Objection logo"> | **Objection** | προετοιμασία για τις εξετάσεις δικηγόρων των ΗΠΑ | [Παίξε](https://objection-bar.vercel.app) · [GitHub](https://github.com/ionpetro/objection) |
-| <img src="https://agora-sales-xi.vercel.app/icon.svg" width="40" height="40" alt="Agora logo"> | **Agora** | πωλήσεις και διαπραγμάτευση, με ηθική | [Παίξε](https://agora-sales-xi.vercel.app) · [GitHub](https://github.com/ionpetro/agora) |
-| <img src="https://oikos-azure-five.vercel.app/icon.svg" width="40" height="40" alt="Oikos logo"> | **Oikos** | οικονομικά και κίνητρα | [Παίξε](https://oikos-azure-five.vercel.app) · [GitHub](https://github.com/ionpetro/oikos) |
-| <img src="https://guanxi-mandarin.vercel.app/icon.svg" width="40" height="40" alt="Guanxi logo"> | **Guanxi** | Μανδαρινικά και τοπική κουλτούρα | [Παίξε](https://guanxi-mandarin.vercel.app) · [GitHub](https://github.com/ionpetro/guanxi) |
-| <img src="https://everyday-ethics.vercel.app/icon.svg" width="40" height="40" alt="Everyday Ethics logo"> | **Everyday Ethics** | καθημερινές επιλογές και ηθική κρίση | [Παίξε](https://everyday-ethics.vercel.app) · [GitHub](https://github.com/ionpetro/everyday-ethics) |
+| <img src="https://carpe.tryskepsis.com/icon.svg" width="40" height="40" alt="Carpe logo"> | **Carpe** | Λατινικά για τις Πανελλαδικές | [Παίξε](https://carpe.tryskepsis.com) · [GitHub](https://github.com/ionpetro/carpe) |
+| <img src="https://gnothi.tryskepsis.com/icon.svg" width="40" height="40" alt="Gnothi logo"> | **Gnothi** (αυτή εδώ) | Αρχαία Ελληνικά για τις Πανελλαδικές | [Παίξε](https://gnothi.tryskepsis.com) · [GitHub](https://github.com/ionpetro/gnothi) |
+| <img src="https://objection.tryskepsis.com/icon.svg" width="40" height="40" alt="Objection logo"> | **Objection** | προετοιμασία για τις εξετάσεις δικηγόρων των ΗΠΑ | [Παίξε](https://objection.tryskepsis.com) · [GitHub](https://github.com/ionpetro/objection) |
+| <img src="https://agora.tryskepsis.com/icon.svg" width="40" height="40" alt="Agora logo"> | **Agora** | πωλήσεις και διαπραγμάτευση, με ηθική | [Παίξε](https://agora.tryskepsis.com) · [GitHub](https://github.com/ionpetro/agora) |
+| <img src="https://oikos.tryskepsis.com/icon.svg" width="40" height="40" alt="Oikos logo"> | **Oikos** | οικονομικά και κίνητρα | [Παίξε](https://oikos.tryskepsis.com) · [GitHub](https://github.com/ionpetro/oikos) |
+| <img src="https://guanxi.tryskepsis.com/icon.svg" width="40" height="40" alt="Guanxi logo"> | **Guanxi** | Μανδαρινικά και τοπική κουλτούρα | [Παίξε](https://guanxi.tryskepsis.com) · [GitHub](https://github.com/ionpetro/guanxi) |
+| <img src="https://ethics.tryskepsis.com/icon.svg" width="40" height="40" alt="Everyday Ethics logo"> | **Everyday Ethics** | καθημερινές επιλογές και ηθική κρίση | [Παίξε](https://ethics.tryskepsis.com) · [GitHub](https://github.com/ionpetro/everyday-ethics) |
 
 ## Τι είναι
 
@@ -112,4 +112,4 @@ research/                    η έρευνα πίσω από το περιεχό
 
 ## Live site
 
-https://gnothi-greek.vercel.app (Vercel project `gnothi-greek`; deploy: `npm run build && cd app/vercel && vercel deploy --prod`)
+https://gnothi.tryskepsis.com (Vercel project `gnothi-greek`; deploy: `npm run build && cd app/vercel && vercel deploy --prod`)
