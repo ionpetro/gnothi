@@ -16,14 +16,16 @@
 
 Το Gnothi είναι μία από οκτώ δωρεάν εφαρμογές ανοιχτού κώδικα, φτιαγμένες με τον ίδιο τρόπο (σύντομα καθημερινά μαθήματα και επανάληψη σε διαστήματα):
 
-- **Skepsis**: οι ελληνικές ρίζες που κρύβονται στα αγγλικά. [Παίξε](https://skepsis-greek.vercel.app) · [GitHub](https://github.com/ionpetro/skepsis)
-- **Carpe**: Λατινικά για τις Πανελλαδικές. [Παίξε](https://carpe-latin.vercel.app) · [GitHub](https://github.com/ionpetro/carpe)
-- **Gnothi** (αυτή εδώ): Αρχαία Ελληνικά για τις Πανελλαδικές. [Παίξε](https://gnothi-greek.vercel.app) · [GitHub](https://github.com/ionpetro/gnothi)
-- **Objection**: προετοιμασία για τις εξετάσεις δικηγόρων των ΗΠΑ. [Παίξε](https://objection-bar.vercel.app) · [GitHub](https://github.com/ionpetro/objection)
-- **Agora**: πωλήσεις και διαπραγμάτευση, με ηθική. [Παίξε](https://agora-sales-xi.vercel.app) · [GitHub](https://github.com/ionpetro/agora)
-- **Oikos**: οικονομικά και κίνητρα. [Παίξε](https://oikos-azure-five.vercel.app) · [GitHub](https://github.com/ionpetro/oikos)
-- **Guanxi**: Μανδαρινικά και τοπική κουλτούρα. [Παίξε](https://guanxi-mandarin.vercel.app) · [GitHub](https://github.com/ionpetro/guanxi)
-- **Everyday Ethics**: καθημερινές επιλογές και ηθική κρίση. [Ιδιωτική προεπισκόπηση](https://everyday-ethics-ion.wintrypenny4.chatgpt.site) · [GitHub](https://github.com/ionpetro/everyday-ethics)
+| | Εφαρμογή | Τι είναι | Σύνδεσμοι |
+|:-:|---|---|---|
+| <img src="https://tryskepsis.com/icon-192.png" width="40" height="40" alt="Skepsis logo"> | **Skepsis** | οι ελληνικές ρίζες που κρύβονται στα αγγλικά | [Παίξε](https://tryskepsis.com) · [GitHub](https://github.com/ionpetro/skepsis) |
+| <img src="https://carpe-latin.vercel.app/icon.svg" width="40" height="40" alt="Carpe logo"> | **Carpe** | Λατινικά για τις Πανελλαδικές | [Παίξε](https://carpe-latin.vercel.app) · [GitHub](https://github.com/ionpetro/carpe) |
+| <img src="https://gnothi-greek.vercel.app/icon.svg" width="40" height="40" alt="Gnothi logo"> | **Gnothi** (αυτή εδώ) | Αρχαία Ελληνικά για τις Πανελλαδικές | [Παίξε](https://gnothi-greek.vercel.app) · [GitHub](https://github.com/ionpetro/gnothi) |
+| <img src="https://objection-bar.vercel.app/icon.svg" width="40" height="40" alt="Objection logo"> | **Objection** | προετοιμασία για τις εξετάσεις δικηγόρων των ΗΠΑ | [Παίξε](https://objection-bar.vercel.app) · [GitHub](https://github.com/ionpetro/objection) |
+| <img src="https://agora-sales-xi.vercel.app/icon.svg" width="40" height="40" alt="Agora logo"> | **Agora** | πωλήσεις και διαπραγμάτευση, με ηθική | [Παίξε](https://agora-sales-xi.vercel.app) · [GitHub](https://github.com/ionpetro/agora) |
+| <img src="https://oikos-azure-five.vercel.app/icon.svg" width="40" height="40" alt="Oikos logo"> | **Oikos** | οικονομικά και κίνητρα | [Παίξε](https://oikos-azure-five.vercel.app) · [GitHub](https://github.com/ionpetro/oikos) |
+| <img src="https://guanxi-mandarin.vercel.app/icon.svg" width="40" height="40" alt="Guanxi logo"> | **Guanxi** | Μανδαρινικά και τοπική κουλτούρα | [Παίξε](https://guanxi-mandarin.vercel.app) · [GitHub](https://github.com/ionpetro/guanxi) |
+| <img src="https://everyday-ethics.vercel.app/icon.svg" width="40" height="40" alt="Everyday Ethics logo"> | **Everyday Ethics** | καθημερινές επιλογές και ηθική κρίση | [Παίξε](https://everyday-ethics.vercel.app) · [GitHub](https://github.com/ionpetro/everyday-ethics) |
 
 ## Τι είναι
 
