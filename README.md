@@ -14,7 +14,7 @@
 
 Το Gnothi είναι δωρεάν και ανοιχτού κώδικα (MIT). **Αν σε βοηθά, [δώσε του ένα αστέρι στο GitHub](https://github.com/ionpetro/gnothi)**: ένα αστέρι βοηθά κι άλλους να το βρουν. Διορθώσεις και pull requests είναι ευπρόσδεκτα.
 
-Το Gnothi είναι μία από οκτώ δωρεάν εφαρμογές ανοιχτού κώδικα, φτιαγμένες με τον ίδιο τρόπο (σύντομα καθημερινά μαθήματα και επανάληψη σε διαστήματα):
+Το Gnothi είναι μία από εννέα δωρεάν εφαρμογές ανοιχτού κώδικα, φτιαγμένες με τον ίδιο τρόπο (σύντομα καθημερινά μαθήματα και επανάληψη σε διαστήματα):
 
 | | Εφαρμογή | Τι είναι | Σύνδεσμοι |
 |:-:|---|---|---|
@@ -26,6 +26,7 @@
 | <img src="https://oikos.tryskepsis.com/icon.svg" width="40" height="40" alt="Oikos logo"> | **Oikos** | οικονομικά και κίνητρα | [Παίξε](https://oikos.tryskepsis.com) · [GitHub](https://github.com/ionpetro/oikos) |
 | <img src="https://guanxi.tryskepsis.com/icon.svg" width="40" height="40" alt="Guanxi logo"> | **Guanxi** | Μανδαρινικά και τοπική κουλτούρα | [Παίξε](https://guanxi.tryskepsis.com) · [GitHub](https://github.com/ionpetro/guanxi) |
 | <img src="https://ethics.tryskepsis.com/icon.svg" width="40" height="40" alt="Everyday Ethics logo"> | **Everyday Ethics** | καθημερινές επιλογές και ηθική κρίση | [Παίξε](https://ethics.tryskepsis.com) · [GitHub](https://github.com/ionpetro/everyday-ethics) |
+| <img src="https://komorebi.tryskepsis.com/icon.svg" width="40" height="40" alt="Komorebi logo"> | **Komorebi** | Ιαπωνικά μέσα από την καθημερινή ζωή | [Παίξε](https://komorebi.tryskepsis.com) · [GitHub](https://github.com/ionpetro/komorebi) |
 
 ## Τι είναι
 
