@@ -265,6 +265,14 @@
   function siteNote() { return `<footer class="sitenote">${sisterNote()}<p><b>${FREE_NOTE}</b></p>${ghLink("btn ghost gh-cta", "footer", `${I.github}<span>Αστέρι στο GitHub</span>`)}<p class="sitenote-sub">Ένα αστέρι βοηθά κι άλλους να το βρουν.</p><p>Η πρόοδος αποθηκεύεται σ' αυτή τη συσκευή. Οι τύποι ελέγχονται στη Γραμματική Οικονόμου, στο Συντακτικό Μουμτζάκη και στον Φάκελο Υλικού· όπου υπάρχει αμφιβολία, η κάρτα το λέει.</p></footer>`; }
 
   function render() {
+    // First visit: skip the name/goal form and open lesson 1 (Skepsis did this on 2026-11-17; the
+    // form lost most new visitors before they saw any content). Name and goal keep their defaults
+    // and stay editable in settings. A deep link (#tab) still shows the form, as before.
+    if (!S.onboarded && !location.hash.slice(1)) {
+      S.onboarded = true; save(); track("onboarding_completed", { goal: S.goal, auto: true });
+      const first = E.nextNode(IX, S);
+      if (first) { welcomePending = true; startNode(first); welcomePending = false; return; }
+    }
     if (!S.onboarded) { app().innerHTML = topbar() + onboarding(); bindOnboarding(); return; }
     const body = { learn: learnView, lex: lexView, me: meView }[ui.tab]();
     app().innerHTML = topbar() + `<main class="view">${body}${siteNote()}</main>` + tabbar();
@@ -528,7 +536,14 @@
     box.addEventListener("click", (e) => { if (e.target === box) box.remove(); });
     $("#quit-stay").focus();
   }
+  /** First screen of the auto-started first lesson: who we are and what this is (the skipped onboarding's blurb). */
+  let welcomePending = false, welcomeRun = null;
+  function welcomeBubble() {
+    return `<section class="hero welcome">${mascot("happy")}<div class="bubble"><b>Gnothi.</b> Είμαι η Γλαύκη. Θα κάνουμε Αρχαία όπως παίζεις ένα παιχνίδι: τέσσερα λεπτά τη φορά, με τις εκφωνήσεις που βάζουν στις Πανελλαδικές, χωρίς καρδιές και χωρίς τιμωρίες. <span class="muted">Χωρίς εγγραφή.</span></div></section>`;
+  }
   function shell(inner, footer = "") {
+    if (welcomePending && run) { welcomeRun = run; welcomePending = false; }
+    if (run && run === welcomeRun && run.i === 0) inner = welcomeBubble() + inner;
     let o = $(".lesson");
     if (!o) { o = document.createElement("div"); o.className = "lesson"; o.setAttribute("role", "dialog"); o.setAttribute("aria-modal", "true"); document.body.appendChild(o); document.body.classList.add("run-open"); }
     const prog = run.mode === "stadion" ? 100 : (run.i / run.steps.length) * 100;
